@@ -12,12 +12,12 @@ https://guides.github.com/features/mastering-markdown/
 The name **oTask** is short for ***Zero Task***. 
 
 ##How It Works
-**oTask** borrows from Agile software development philosophy and supercharges your daily task management system. At **oTask** you see your day as a sprint and try to do what is possible. Anything you can't do today gets removed and the next day you start again from a blank task list. Unlike traditional task management systems you can't save your tasks. In the morning or at the start of your work day you open **oTask** and write down as much as you can remember and want to do that day. You can bring in tasks from other task list to **oTask** at the beginning of each day.
+**oTask** borrows from Agile software development philosophy and supercharges your daily task management system. At **oTask** you see your day as a sprint and try to do what is possible on that day. Anything you can't do today gets removed and the next day you start again from a blank task list. Unlike traditional task management systems you can't save your tasks. In the morning or at the start of your work day you open **oTask** and write down as much as you can remember and want to do that day. You can bring in tasks from other task list to **oTask** at the beginning of each day.
 
-The idea is if something is important enough you will remember it. Also the process of writing a task at the beginning of the work day gets your brain into gear for that task. 
+The idea is if something is important enough you will remember it. Also the process of writing a task at the beginning of the work day gets your brain into gear for that task. You can use **oTask** along with other task management systems to get things done faster and more efficiently. 
 
 ##Opensource & No Copyright
-**oTask** is opensource and there is no copyright on it. Feel free to contribute, update and and use for your own needs. If you make any improvements we would love to see it. Feel free to let us know with pull requests. 
+**oTask** is opensource and there is no copyright on it. Feel free to contribute, update and and use for your own needs. Let us know if you have any questions. If you make any improvements we would love to see it. Feel free to let us know with pull requests. 
 
 More to be continued . . .
 
