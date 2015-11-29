@@ -22,11 +22,8 @@ The idea is if something is important enough you will remember it. Also the proc
 More to be continued . . .
 
 Hope you find **oTask** Helpful.
-<strong> Bappy </strong> (Buppy)
 
-
---------------------
-###Bappy Golder <br/>
+##Bappy Golder <br/>
 <a href="http://bappygolder.com/">Website</a>  |  <a href="https://github.com/bappygolder">LinkedIn</a> |  <a href="https://au.linkedin.com/in/bappygolder">Twitter</a>
 
 
