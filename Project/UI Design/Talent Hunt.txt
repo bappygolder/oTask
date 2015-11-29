@@ -1,8 +1,11 @@
 Hey,
 
-We need a responsive web app UI designed from sketchd concept. Do you think you can help?
+We need a responsive web app UI designed from sketchd concept.This can be done on photoshop. We need just one page designed that is the size of a mobile screen. Once you design the mobile size screen then you will need the same idae designed for tablet and large screen. This will be a matter of adding space and increasing sizes etc. So you should be able to do it pretty easily within 30-40 min max. 
 
 We have the concept sketched already. We now need some creative idea for the look and feel. 
+
+If you know more about the project you can visit the following link:
+https://github.com/bappygolder/oTask	
 
 Do you think you can do it? Please let us know.
 
@@ -10,3 +13,4 @@ cheers
 
 Bappy
 (sk-ype: bappy14)
+
