@@ -26,7 +26,7 @@ Hope you enjoy it **oTask**.
 
 
 --------------------
-**Bappy Golder** <br/>
+###Bappy Golder### <br/>
 <a href="http://bappygolder.com/">Website</a>  |  <a href="https://github.com/bappygolder">LinkedIn</a> |  <a href="https://au.linkedin.com/in/bappygolder">Twitter</a>
 
 
