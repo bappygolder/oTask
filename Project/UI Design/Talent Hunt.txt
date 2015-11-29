@@ -25,7 +25,12 @@ Hey,
 
 We need the attached image converted from PSD to HTML5 & CSS3. The design is done for mobile but we would also like some responsive versions for bigger screens. You will need to add some spaces and so on to make it work for larger screen. 
 
-We need a CSS wizerd to be able to custom code the CSS with clean and structured CSS that is compatible with all different browsers. 
+You need to be a CSS wizerd to be able to custom code the CSS with clean and structured CSS that is compatible with all different browsers. 
+
+If you know more about the project you can visit the following link:
+https://github.com/bappygolder/oTask
+
+Let us know your quote and estimated time to complete.
 
 cheers
 
