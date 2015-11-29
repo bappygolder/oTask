@@ -3,7 +3,7 @@ https://help.github.com/articles/markdown-basics/
 https://guides.github.com/features/mastering-markdown/
 -->
 
-# Learn-GitHub-Desktop
+# oTask: Readme
 
 This project is a tutorial for Github Desktop. The tutorial aims to teach you GitHub Desktop As fast as possible. Feel free to contribute, update and get in touch.
 
