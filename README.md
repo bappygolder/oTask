@@ -5,7 +5,13 @@ https://guides.github.com/features/mastering-markdown/
 
 # oTask: Readme
 
-This project is a tutorial for Github Desktop. The tutorial aims to teach you GitHub Desktop As fast as possible. Feel free to contribute, update and get in touch.
+oTask is a simple task management system. It is not just an ordinary task management system. oTask is a peaceful task management phylosophy. The goal of oTask is to help you start with a blank slate everyday and finish with zero task left on your list. 
+
+The name **oTask** is short for *Zero Task*. 
+
+oTask is opensource and have no copywright on it. Feel free to contribute, update and and use for your own needs. If you've made some major improvemens we would love to see it. 
+
+More to be continued . . .
 
 <strong> Bappy </strong> (Buppy)
 
