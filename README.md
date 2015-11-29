@@ -23,7 +23,7 @@ More to be continued . . .
 
 Hope you find **oTask** Helpful.
 
-##Bappy (Buppy) Golder <br/>
+##Bappy Golder <br/>
 <a href="http://bappygolder.com/">Website</a>  |  <a href="https://github.com/bappygolder">LinkedIn</a> |  <a href="https://au.linkedin.com/in/bappygolder">Twitter</a>
 
 
