@@ -17,7 +17,7 @@ Structur
 	margin: auto;
 }
 
-#add_task_section {
+#add_task_section, #task_section {
 	padding: 2.3%;
 }
 
@@ -34,6 +34,23 @@ Structur
 	width: 100%;
 	margin-top: 5px;
 	height: 32px;
+}
+
+#task_section ul {
+	padding: 0;	
+}
+
+#task_section ul li {
+	margin-bottom: 5px;
+	line-height: 50px;
+	list-style-type: none;
+	padding-left: 8px;
+}
+
+.cross_mark {
+	float: right;
+	width: 50px;
+	text-align: center;
 }
 
 /*end: Structure
@@ -53,6 +70,15 @@ Colors
 
 #add_task_section form {
 	background-color: inherit;
+}
+
+#task_section ul li {
+	background: #E0E0E0;
+}
+
+.cross_mark {
+	color: white;
+	background:#393;
 }
 
 /*end: Colors
