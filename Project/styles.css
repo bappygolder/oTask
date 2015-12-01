@@ -17,7 +17,9 @@ Structur
 	margin: auto;
 }
 
-#add_task_section, #task_section {
+#add_task_section, 
+#task_section,
+#clear_task_section {
 	padding: 2.3%;
 }
 
@@ -53,6 +55,11 @@ Structur
 	text-align: center;
 }
 
+#clear_task_section button {
+	width: 100%;
+}
+
+
 /*end: Structure
 ---------------------------------------------------------------------------------------------------*/
 
@@ -80,6 +87,11 @@ Colors
 	color: white;
 	background:#393;
 }
+
+#clear_task_section {
+	background: red;
+}
+
 
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
