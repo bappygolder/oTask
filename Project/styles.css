@@ -4,6 +4,7 @@ Global CSS
 * {
 	background-color: #EEEEEE;
 	box-sizing:border-box;
+	background: red;
 }
 
 /*end: Global CSS
