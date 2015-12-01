@@ -89,7 +89,7 @@ Colors
 }
 
 #clear_task_section {
-	background: red;
+	background: pink;
 }
 
 
@@ -118,7 +118,7 @@ normalize.css: Downloaded: 30 Nov 2015
  *    user zoom.
  */
 
-html {
+html { 
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -126,7 +126,7 @@ html {
 
 /**
  * Remove default margin.
- */
+ */ 
 
 body {
   margin: 0;
