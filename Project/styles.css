@@ -30,6 +30,7 @@ Structur
 #task_input_field {
 	width: 100%;
 	height: 60px;
+	border: 0;
 }
 
 #add_task_button {
@@ -72,7 +73,7 @@ Colors
 }
 
 #add_task_section {
-	background: skyblue;
+	background: #d7d7d8;
 }
 
 #add_task_section form {
@@ -92,6 +93,9 @@ Colors
 	background: pink;
 }
 
+#task_input_field {
+	 background: #fff;   
+}
 
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
