@@ -58,10 +58,14 @@ Structur
 
 #clear_task_section button {
 	width: 100%;
+	border: 0;
+    height: auto;
+    padding: 12px;
 }
 .dots { 
 	text-align: right; 
 	padding-right: 15px; 
+	padding-bottom: 12px;
 }
 .dots span { 
 	height: 6px;
@@ -113,7 +117,7 @@ Colors
 }
 
 #clear_task_section {
-	background: red;
+	background: #eeeded;
 }
 
 #task_input_field {
@@ -127,6 +131,10 @@ Colors
 	background: #ff3d00;
 	color: #fff;
  }
+#clear_task_section button {
+	background: #4caf50;
+	color: #fff;
+}
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
 
