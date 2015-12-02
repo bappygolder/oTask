@@ -19,6 +19,7 @@ Structur > Overall Structure
 
 #app_container {
 	margin: auto;
+  max-width: 320px;
 }
 
 #add_task_section, 
@@ -109,8 +110,13 @@ Structur > Overall Structure
 Colors
 ---------------------------------------------------------------------------------------------------*/
 /*#app_container {
-	background: pink;
+	background,: pink;
 }*/
+
+body,
+html {
+	background-color: #E0E0E0;
+}
 
 #add_task_section {
 	background: #d7d7d8;
