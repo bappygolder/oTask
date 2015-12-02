@@ -31,7 +31,6 @@ Structur
 	width: 100%;
 	height: 60px;
 	border: 0;
-    background: #fff;
 }
 
 #add_task_button {
@@ -94,6 +93,9 @@ Colors
 	background: red;
 }
 
+#task_input_field {
+	 background: #fff;   
+}
 
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
