@@ -76,6 +76,12 @@ Structur
 	text-transform: uppercase;
 	border: 0;
 }
+.cross_mark {
+	position: absolute;
+    top: 0;
+    right: 0;
+
+}
 /*end: Structure
 ---------------------------------------------------------------------------------------------------*/
 
@@ -97,11 +103,13 @@ Colors
 
 #task_section ul li {
 	background: #E0E0E0;
+	position: relative;
 }
 
 .cross_mark {
 	color: white;
-	background:#393;
+	background: #76d378;
+
 }
 
 #clear_task_section {
