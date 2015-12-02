@@ -20,13 +20,16 @@ The idea is if something is important enough you will remember it. Also the proc
 ##Opensource & No Copyright
 **oTask** is opensource and there is no copyright on it. Feel free to contribute, update and and use for your own needs. Let us know if you have any questions. If you make any improvements we would love to see it. Feel free to let us know with pull requests. 
 
-More to be continued . . .
+##Start Contributing
+We would love to have new contributors help us with the project. This is a very simple project and is also great way to get started on open soure stuff. 
+
+If you have never worked with Git, open source projects or version control systems we would love to help you learn all these as you contribute on this project. Start by following the instructions in [this link](https://github.com/bappygolder/Learn-GitHub-Desktop) and you will be well on your way to success in no times.
+
 
 Hope you find **oTask** Helpful.
+More to be continued . . .
 
 Bappy (Buppy)
 
 ##Bappy Golder <br/>
 <a href="http://bappygolder.com/">Website</a>  |  <a href="https://github.com/bappygolder">LinkedIn</a> |  <a href="https://au.linkedin.com/in/bappygolder">Twitter</a>
-
-
