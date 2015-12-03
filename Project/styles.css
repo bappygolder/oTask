@@ -130,6 +130,7 @@ Colors
 #add_task_button { 
 	background: #ff3d00;
 	color: #fff;
+	margin-top: 7px;
  }
 #clear_task_section button {
 	background: #4caf50;
@@ -137,7 +138,10 @@ Colors
 }
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
+#add_task_button { 
+	 font-size: 19px;
 
+}
 
 
 /*--------------------------------------------------------------------------------------------------
