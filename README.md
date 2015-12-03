@@ -4,11 +4,11 @@ https://help.github.com/articles/markdown-basics/
 https://guides.github.com/features/mastering-markdown/
 -->
 
-# oTask: ReadMe
+# oTask - Peaceful ToDo List
 *Last Updated: 29 Nov 2015*
 
 ##About
-**oTask** is a simple task management system. It is not just an ordinary task management system. **oTask** is a peaceful task management philosophy. The goal of **oTask** is to help you start with a blank slate everyday and finish with zero task left on your list. 
+**oTask** is a simple ToDo List (task management system). It is not just an ordinary todo list. **oTask** is what we call a peaceful task management philosophy. The goal of **oTask** is to help you start with a blank slate everyday and finish with zero task left on your list. 
 
 The name **oTask** is short for ***Zero Task***. 
 
