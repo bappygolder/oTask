@@ -60,6 +60,7 @@ Structur > Overall Structure
 	line-height: 50px;
 	list-style-type: none;
 	padding-left: 8px;
+	position: relative;
 }
 
 .cross_mark {
@@ -157,12 +158,21 @@ html {
 	background: #4caf50;
 	color: #fff;
 }
+.fade { height: 100%; width: 80px; position: absolute; top: 0px; right: 54px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e0e0+0,e0e0e0+100&amp;0.19+0,1+100 */
+background: -moz-linear-gradient(left,  rgba(224,224,224,0.19) 0%, rgba(224,224,224,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(224,224,224,0.19) 0%,rgba(224,224,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(224,224,224,0.19) 0%,rgba(224,224,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30e0e0e0', endColorstr='#e0e0e0',GradientType=1 ); /* IE6-9 */
+
+}
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
 #add_task_button { 
 	 font-size: 19px;
 
 }
+#task_section ul li { font-size: 15px; }
 
 
 /*--------------------------------------------------------------------------------------------------
