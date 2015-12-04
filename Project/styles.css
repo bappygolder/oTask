@@ -173,10 +173,10 @@ html {
 
 .fade { 
 	height: 100%; 
-	width: 80px; 
+	width: 140px;
 	position: absolute; 
 	top: 0px; 
-	right: 54px;
+	right: 50px;
 	/* Permalink - use to edit and share this gradient: 	
 	http://colorzilla.com/gradient-editor/#e0e0e0+0,e0e0e0+100&amp;0.19+0,1+100 */
 	background: -moz-linear-gradient(left,  rgba(224,224,224,0.19) 0%, rgba(224,224,224,1) 100%); /* FF3.6-15 */
