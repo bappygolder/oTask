@@ -4,7 +4,9 @@ https://help.github.com/articles/markdown-basics/
 https://guides.github.com/features/mastering-markdown/
 -->
 
-# oTask - Peaceful ToDo List
+# oTask
+###The Simplest ToDo List & Peaceful Task Management Philosophy 
+[Visit Live Website](http://bappygolder.github.io/oTask/) 
 *Last Updated: 29 Nov 2015*
 
 ##About
