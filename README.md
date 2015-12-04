@@ -5,9 +5,8 @@ https://guides.github.com/features/mastering-markdown/
 -->
 
 # oTask
-###The Simplest ToDo List & Peaceful Task Management Philosophy 
-[Visit Live Website](http://bappygolder.github.io/oTask/) 
-*Last Updated: 29 Nov 2015*
+[The Simplest ToDo List](http://bappygolder.github.io/oTask/) - A Peaceful Task Management Philosophy <br/> 
+*ReadMe Last Updated: 29 Nov 2015*
 
 ##About
 **oTask** is a simple ToDo List (task management system). It is not just an ordinary todo list. **oTask** is what we call a peaceful task management philosophy. The goal of **oTask** is to help you start with a blank slate everyday and finish with zero task left on your list. 
