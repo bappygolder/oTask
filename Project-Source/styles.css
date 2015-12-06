@@ -1,0 +1,212 @@
+/*--------------------------------------------------------------------------------------------------
+Global CSS
+---------------------------------------------------------------------------------------------------*/
+* {
+	background-color: #EEEEEE;
+	box-sizing:border-box;
+}
+
+/*end: Global CSS
+---------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+Structur    
+---------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------
+Structur > Overall Structure
+----------------------------------------------------*/
+
+#app_container {
+	margin: auto;
+  max-width: 360px;
+}
+
+#add_task_section, 
+#task_section,
+#clear_task_section,
+.dots {
+	padding: 0 23px; /*Controls the breathing 
+										for both sides of the whole app*/
+}
+
+.dots {
+	padding-right: 26px;
+}
+
+/*end: Structur > Overall Structure
+----------------------------------------------------*/
+
+#add_task_section{
+	padding-top: 23px;	
+}
+
+#add_task_section form {
+	overflow: hidden;
+}
+
+#task_input_field {
+	width: 100%;
+	height: 60px;
+	border: 0;
+	padding: 5px 10px;
+}
+
+#task_section ul {
+	padding: 0;	
+}
+
+#task_section ul li {
+	position: relative;
+	margin-bottom: 5px;
+	line-height: 50px;
+	list-style-type: none;
+	padding-left: 8px;
+	position: relative;
+}
+
+.cross_mark {
+	float: right;
+	width: 50px;
+	text-align: center;
+}
+
+#clear_task_section button {
+	width: 100%;
+	border: 0;
+    height: auto;
+    padding: 12px;
+}
+.dots { 
+	text-align: right; 
+	/*padding-right: 15px; 
+	padding-bottom: 12px;*/
+}
+.dots span { 
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	display: inline-block;
+ }
+ 
+#add_task_button { 
+	height: auto;
+	padding: 10px 0;
+	text-transform: uppercase;
+	border: 0;
+	width: 100%;
+	margin: 8px 0;
+
+}
+
+.cross_mark {
+	position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.fade {
+	height: 100%; 
+	width: 80px; 
+	position: absolute; 
+	top: 0; 
+	right: 52px;
+	
+}
+#clear_task_section { 
+	padding: 0; 
+}
+/*end: Structure
+---------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------------
+Colors
+---------------------------------------------------------------------------------------------------*/
+/*#app_container {
+	background,: pink;
+}*/
+
+body,
+html {
+	background-color: #E0E0E0;
+}
+
+#add_task_section {
+	background: #d7d7d8;
+}
+
+#add_task_section form {
+	background-color: inherit;
+}
+
+#task_section ul li {
+	background: #E0E0E0;
+	position: relative;
+}
+
+.cross_mark {
+	color: white;
+	background: #76d378;
+
+}
+
+#clear_task_section {
+	background: #eeeded;
+}
+
+#task_input_field {
+	 background: #fff;   
+}
+.dots span {
+	background: #d6d5d5;
+	
+}
+#add_task_button { 
+	background: #ff3d00;
+	color: #fff;
+	margin-top: 7px;
+ }
+#clear_task_section button {
+	background: #4caf50;
+	color: #fff;
+}
+
+.fade { 
+	height: 100%; 
+	width: 140px;
+	position: absolute; 
+	top: 0px; 
+	right: 50px;
+	/* Permalink - use to edit and share this gradient: 	
+	http://colorzilla.com/gradient-editor/#e0e0e0+0,e0e0e0+100&amp;0.19+0,1+100 */
+	background: -moz-linear-gradient(left,  rgba(224,224,224,0.19) 0%, rgba(224,224,224,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(224,224,224,0.19) 0%,rgba(224,224,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(224,224,224,0.19) 0%,rgba(224,224,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30e0e0e0', endColorstr='#e0e0e0',GradientType=1 ); /* IE6-9 */
+
+}
+
+/*end: Colors
+---------------------------------------------------------------------------------------------------*/
+#add_task_button { 
+	 font-size: 19px;
+
+}
+#task_section ul li { font-size: 15px; }
+
+
+/*--------------------------------------------------------------------------------------------------
+Fonts
+---------------------------------------------------------------------------------------------------*/
+
+/*end: Fonts
+---------------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------------------------------
+normalize.css: Downloaded: 30 Nov 2015
+---------------------------------------------------------------------------------------------------*/
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],/* 1 */
+input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}	
