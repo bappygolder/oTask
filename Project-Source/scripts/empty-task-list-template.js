@@ -3,6 +3,6 @@
 angular.module("oTask")
 .directive('emptyTaskListTemplate', function(){
 	return {
-		template: "Start typing above to make your list."	
+		template: "Your list is empty. Add something new!"	
 	};	
 });

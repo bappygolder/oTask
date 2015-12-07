@@ -32,7 +32,9 @@ div[empty-task-list-template] {
 }
 
 div[empty-task-list-template] {
-	padding-top: 23px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
 }
 
 .dots {
