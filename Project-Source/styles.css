@@ -25,9 +25,14 @@ Structur > Overall Structure
 #add_task_section, 
 #task_section,
 #clear_task_section,
-.dots {
+.dots,
+div[empty-task-list-template] {
 	padding: 0 23px; /*Controls the breathing 
 										for both sides of the whole app*/
+}
+
+div[empty-task-list-template] {
+	padding-top: 23px;
 }
 
 .dots {
@@ -186,6 +191,11 @@ html {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30e0e0e0', endColorstr='#e0e0e0',GradientType=1 ); /* IE6-9 */
 
 }
+
+div[empty-task-list-template] {
+	color: #9E9E9E;
+}
+
 
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
