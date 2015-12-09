@@ -18,14 +18,15 @@ The name **oTask** is short for ***Zero Task***.
 
 The idea is if something is important enough you will remember it. Also the process of writing a task at the beginning of the work day gets your brain into gear for that task. You can use **oTask** along with other task management systems to get things done faster and more efficiently. 
 
-##Opensource & No Copyright
-**oTask** is opensource and there is no copyright on it. Feel free to contribute, update and and use for your own needs. Let us know if you have any questions. If you make any improvements we would love to see it. Feel free to let us know with pull requests. 
-
 ##Start Contributing
-We would love to have new contributors help us with the project. This is a very simple project. This project can be a great way to get started on open soure projects. 
+We would love to have new contributors help us with the project. This is a very simple project. This project can be a great way to get started on open soure projects. It is best if you contact me first before you start contributing:
+
+skype: bappy14
 
 If you have never worked with Git, open source projects or version control systems we would love to help you learn all these as you start with this project. You can start by following the instructions in [this link](https://github.com/bappygolder/Learn-GitHub-Desktop) and you will be well on your way to success in no times.
 
+##Opensource & No Copyright
+**oTask** is opensource and there is no copyright on it. Feel free to contribute, update and and use for your own needs. Let us know if you have any questions. If you make any improvements we would love to see it. Feel free to let us know with pull requests. 
 
 Hope you find **oTask** Helpful.
 More to be continued . . .
