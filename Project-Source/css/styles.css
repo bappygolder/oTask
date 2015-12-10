@@ -85,7 +85,8 @@ div[empty-task-list-template] {
 }
 
 .task {
-	padding-top: 15px;
+	padding-top: 5px;
+	padding-left: 5px;
 }
 /***********************/
 
@@ -190,6 +191,36 @@ html {
 .btn-disabled {
 	opacity: .5;
 }
+
+#task_section {
+	max-height: 500px;
+	overflow-y: scroll;
+}
+
+/* Scrollbar stuff */
+/* Let's get this party started */
+::-webkit-scrollbar {
+	width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: rgba(0,0,0,0.3);
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	border: 2px solid #eeeeee;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #d7d7d8;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #d7d7d8;
+}
+/* End Scrollbar stuff */
 
 #task_section ul li {
 	background: #E0E0E0;
