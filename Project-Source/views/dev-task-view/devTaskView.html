@@ -1,0 +1,55 @@
+<!--
+Master Project Location: https://github.com/bappygolder/oTask
+Live Hosted Website: http://bappygolder.github.io/oTask/
+-->
+<div id="app_container">
+
+    <div id="add_task_section">
+        <form id="add_task">
+            <textarea type="text" name="new_task" id="task_input_field" placeholder="New Task . . ."></textarea>
+            <br/>
+            <input type="submit" value="Add" id="add_task_button">
+        </form>
+    </div> <!--end: #add_task_section-->
+
+
+    <!--sample task list div-->
+    <div id="task_section">
+        <ul>
+            <li> This is a test task for today, please...<span class="fade"></span>
+                <span class="cross_mark">&#x274C;</span>
+            </li>
+            <li> This is a test task for today, please...<span class="fade"></span>
+                <span class="cross_mark">&#x274C;</span>
+            </li>
+            <li> This is a test task for today, please...<span class="fade"></span>
+                <span class="cross_mark">&#x274C;</span>
+            </li>
+            <li> This is a test task for today, please...<span class="fade"></span>
+                <span class="cross_mark">&#x274C;</span>
+            </li>
+            <li> This is a test task for today, please...<span class="fade"></span>
+                <span class="cross_mark">&#x274C;</span>
+            </li>
+            <li> This is a test task for today, please...<span class="fade"></span>
+                <span class="cross_mark">&#x274C;</span>
+            </li>
+            <li> This is a test task for today, please...<span class="fade"></span>
+                <span class="cross_mark">&#x274C;</span>
+            </li>
+        </ul>
+    </div> <!--end: #task_section-->
+
+    <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div><!--end: .dots-->
+
+    <div id="clear_task_section">
+        <button type="button">
+            <a ui-sref="taskView">Go Back Home</a>
+        </button>
+    </div>	<!--end: #clear_task_section-->
+
+</div><!--end: #app_container-->
