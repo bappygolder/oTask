@@ -1,0 +1,39 @@
+<!--
+Master Project Location: https://github.com/bappygolder/oTask
+Live Hosted Website: http://bappygolder.github.io/oTask/
+-->
+<div id="app_container">
+
+    <!--start: Add Task Section -->
+    <div id="add_task_section">
+        <form id="add_task" name="add_task">
+            <textarea ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ."></textarea>
+            <br/>
+            <button id="add_task_button" ng-class="{'btn-disabled' : vm.newDescription == ''}" ng-disabled="vm.newDescription == ''" ng-click="vm.addTask()">ADD</button>
+        </form>
+    </div>
+    <!--end: #add_task_section-->
+
+    <!--start: Task Section -->
+    <div id="task_section">
+        <!-- Show Empty text if no tasks exist -->
+        <div id="empty_msg" ng-if="vm.isListEmpty">Your list is empty. Add something new!</div>
+
+        <!-- Show list if tasks exists -->
+        <ul ng-if="!vm.isListEmpty">
+            <div class="task">
+                <li ng-repeat="task in vm.taskList">
+                    {{task.description}}
+                    <span class="fade"></span>
+                    <button class="cross_mark" ng-click="vm.deleteTask($index)">&#x274C;</button>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <!--end: Task Section -->
+
+    <div id="clear_task_section">
+        <button type="button" ng-click="vm.clearAllTasks()">Clear Tasks</button>
+    </div>    <!--end: #clear_task_section-->
+
+</div><!--end: #app_container-->
