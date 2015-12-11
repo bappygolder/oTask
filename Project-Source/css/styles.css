@@ -2,7 +2,7 @@
 Global CSS
 ---------------------------------------------------------------------------------------------------*/
 * {
-	background-color: #EEEEEE;
+	/*background-color: #EEEEEE; Removed by Eric Ruiz*/
 	box-sizing:border-box;
 }
 
@@ -59,6 +59,10 @@ div[empty-task-list-template] {
 	padding: 5px 10px;
 }
 
+#task_section {
+	background: #eeeeee;
+}
+
 #task_section ul {
 	padding: 0;	
 }
@@ -72,8 +76,24 @@ div[empty-task-list-template] {
 	position: relative;
 }
 
+/* Added by Eric Ruiz */
+#empty_msg {
+	color: #9e9e9e;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.task {
+	padding-top: 5px;
+	padding-left: 5px;
+}
+/***********************/
+
 .cross_mark {
+	border: 0;
 	float: right;
+	height: 50px;
 	width: 50px;
 	text-align: center;
 }
@@ -85,7 +105,7 @@ div[empty-task-list-template] {
     padding: 12px;
 }
 .dots { 
-	text-align: right; 
+	text-align: right;
 	/*padding-right: 15px; 
 	padding-bottom: 12px;*/
 }
@@ -167,6 +187,40 @@ html {
 #add_task_section form {
 	background-color: inherit;
 }
+
+.btn-disabled {
+	opacity: .5;
+}
+
+#task_section {
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+/* Scrollbar stuff */
+/* Let's get this party started */
+::-webkit-scrollbar {
+	width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: rgba(0,0,0,0.3);
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	border: 2px solid #eeeeee;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #d7d7d8;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #d7d7d8;
+}
+/* End Scrollbar stuff */
 
 #task_section ul li {
 	background: #E0E0E0;
