@@ -5,7 +5,7 @@ https://guides.github.com/features/mastering-markdown/
 -->
 
 # oTask
-[The Simplest ToDo List](http://bappygolder.github.io/oTask/) - A Peaceful Task Management Philosophy <br/> 
+[The Simplest ToDo List](http://bappygolder.github.io/oTask/Project-Source/#/taskView) - A Peaceful Task Management Philosophy <br/> 
 *ReadMe Last Updated: 29 Nov 2015*
 
 ##About

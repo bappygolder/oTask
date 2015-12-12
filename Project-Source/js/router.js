@@ -16,10 +16,5 @@
                 templateUrl: 'views/task-view/taskView.html',
                 controller: 'TaskViewController as vm'
             })
-            .state('devTaskView', {
-                url: '/devTaskView',
-                templateUrl: 'views/dev-task-view/devTaskView.html',
-                controller: 'DevTaskViewController as vm'
-            })
     }
 })();
