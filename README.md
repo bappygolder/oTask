@@ -5,33 +5,48 @@ https://guides.github.com/features/mastering-markdown/
 -->
 
 # oTask
-[The Simplest ToDo List](http://bappygolder.github.io/oTask/Project-Source/#/taskView) - A Peaceful Task Management Philosophy <br/> 
-*ReadMe Last Updated: 29 Nov 2015*
+*ReadMe Last Updated: 15 Dec 2015*
 
-##About
-**oTask** is a simple ToDo List (task management system). It is not just an ordinary todo list. **oTask** is what we call a peaceful task management philosophy. The goal of **oTask** is to help you start with a blank slate everyday and finish with zero task left on your list. 
+## Important Links
+- [oTask](http://bappygolder.github.io/oTask/Project-Source/#/taskView) - Live project website. 
+- [oTask Timeline/Blog](http://otask.tumblr.com/) - A timeline showing the evolution & progess of oTask.
+
+## About
+
+**oTask** is a simple and free ToDo List. It is not just an ordinary todo list. We believe oTask is a peaceful task management philosophy. The goal of **oTask** is to help you make a group of tasks that you can finish within a certain period of time (we call this **sprint**). Give oTask a try and let us know what you think.
 
 The name **oTask** is short for ***Zero Task***. 
 
-##How It Works
-**oTask** borrows from Agile software development philosophy and supercharges your daily task management system. At **oTask** you see your day as a sprint and try to do what is possible on that day. Anything you can't do today gets removed and the next day you start again from a blank task list. Unlike traditional task management systems you can't save your tasks. In the morning or at the start of your work day you open **oTask** and write down as much as you can remember and want to do that day. You can bring in tasks from other task list to **oTask** at the beginning of each day.
+## How to use oTask
+Each sessions you use on oTask is called a **Sprint**. The time you choose to finish your sprint is called **sprint end time or SET**. 
 
-The idea is if something is important enough you will remember it. Also the process of writing a task at the beginning of the work day gets your brain into gear for that task. You can use **oTask** along with other task management systems to get things done faster and more efficiently. 
+1. Descide the **sprint end time (SET)** by when you want to finish you tasks. It could be the end of the work day, the next 2 hours, just before going to sleep or just a certain time (i.e: 5pm). You are in full control. 
+2. Start/Visit [oTask](http://bappygolder.github.io/oTask/Project-Source/#/taskView).
+3. List the tasks you want to finish by the **sprint end time (SET)**. Keep listing them as you remember or from your ToDo list, email from elsewhere. The tasks you remeber are often the most important, try to get them in the list first. Try to keep your list as minimal as possible. We recommend listing 5 tasks or less for a sprint at a time.
+4. Now look at your list and descide which item is the most important. Start it, finish it, cross it off and move on to the next most important item. 
+5. Try to do as much as you can by your SET. Once you've reached your SET take a break or do something else before restarting another sprint.
 
-##Start Contributing
-We would love to have new contributors help us with the project. This is a very simple project. This project can be a great way to get started on open soure projects. It is best if you contact me first before you start contributing:
+This is just one way to use oTask. The possiblities are endless. Feel free to use it whatever way you like. 
+
+## oTask Philosophy
+**oTask** borrows from Agile software development philosophy and applies it to our day to day task management. You can supercharges your daily task management using oTask. Your day can become a sprint, your evenig until bed time can be another sprint. oTask keeps you focused and helps you see easily things you need to focus on and complete. You try to do what is possible within a sprint. These are things you want to get done. Anything you can't do in one sprint gets removed and then gets added to the next sprint. New sprints start as blank list. Unlike traditional ToDo lists you can't save your tasks. In the morning or in the beginning of the sprint you open **oTask**, you create your sprint with what you want/need to do for that specific sprint. You can bring in tasks from other task list to **oTask** at the beginning of the sprint as well. 
+
+The idea is if something is important enough you will remember it. Also the process of writing a task at the beginning of the sprint gets your brain into gear to complete that task. You can use **oTask** along with other todo lists and task management systems to get things done faster and more efficiently. 
+
+## Start Contributing
+We would love to welcome you as a contributor. This is a very simple project. We would love to have new contributors help us with the project. This project can be a great way to get started with open soure projects as well. It is best if you contact me first before you start contributing:
 
 **skype: bappy14**
 
-If you have never worked with Git, open source projects or version control systems we would love to help you learn all these as you start with this project. You can start by following the instructions in [this link](https://github.com/bappygolder/Learn-GitHub-Desktop) and you will be well on your way to success in no times.
+If you have never worked with Git, open source projects or version control systems we would love to help you learn all these as you start with this project. You can start by following the instructions tutorial in [this link](https://github.com/bappygolder/Learn-GitHub-Desktop) and you will be well on your way to success in no times.
 
-##Opensource & No Copyright
-**oTask** is opensource and there is no copyright on it. Feel free to contribute, update and and use for your own needs. Let us know if you have any questions. If you make any improvements we would love to see it. Feel free to let us know with pull requests. 
+## Opensource & No Copyright
+**oTask** is currently opensource and there is no copyright on it. Feel free to contribute, update and and use for your own needs. Let us know if you have any questions. If you make any improvements we would love to see it. Feel free to let us know with a pull requests. 
 
 Hope you find **oTask** Helpful.
 More to be continued . . .
 
 *Bappy* (Buppy)
 
-##Bappy Golder <br/>
+## Bappy Golder <br/>
 <a href="http://bappygolder.com/">Website</a>  |  <a href="https://github.com/bappygolder">LinkedIn</a> |  <a href="https://au.linkedin.com/in/bappygolder">Twitter</a>

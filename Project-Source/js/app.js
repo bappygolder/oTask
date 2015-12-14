@@ -11,7 +11,7 @@
     function ApplicationController($scope, $location, $rootScope) {
         $scope.$on('$stateChangeSuccess', onStateChangeSuccess);
 
-        function onStateChangeSuccess(event, toState, toParams, fromState, fromParams) {
+        	function onStateChangeSuccess(event, toState, toParams, fromState, fromParams) {
 
         }
     }
