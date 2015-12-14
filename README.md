@@ -4,11 +4,15 @@ https://help.github.com/articles/markdown-basics/
 https://guides.github.com/features/mastering-markdown/
 -->
 
-# [oTask](otask.tumblr.com)
+# oTask
+*ReadMe Last Updated: 14 Dec 2015*
 [The Simplest ToDo List](http://bappygolder.github.io/oTask/Project-Source/#/taskView) - A Peaceful Task Management Philosophy <br/> 
-*ReadMe Last Updated: 29 Nov 2015*
 
-##About
+## Important Links
+- [oTask](http://bappygolder.github.io/oTask/Project-Source/#/taskView) - go to the live site to use oTask now. 
+- [oTask Website](http://otask.tumblr.com/) - A timeline showing the evolution of oTask over time. 
+
+## About
 **oTask** is a simple ToDo List (task management system). It is not just an ordinary todo list. **oTask** is what we call a peaceful task management philosophy. The goal of **oTask** is to help you start with a blank slate everyday and finish with zero task left on your list. 
 
 The name **oTask** is short for ***Zero Task***. 
