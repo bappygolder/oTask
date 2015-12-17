@@ -4,7 +4,8 @@
     angular.module('oTask', [
         'ui.router'
     ])
-        .controller('ApplicationController', ApplicationController);
+    
+		.controller('ApplicationController', ApplicationController);
 
     ApplicationController.$inject = ['$scope', '$location', '$rootScope'];
 
