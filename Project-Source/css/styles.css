@@ -140,9 +140,9 @@ div[empty-task-list-template] {
 	right: 52px;
 	
 }
-/*#clear_task_section { 
-	padding: 0; 
-}*/
+#clear_task_section { /*Makes the clear button expand both side to touch the edges.*/
+	/*padding: 0; */
+}
 
 /*--------------------------------------------------
 Media Queries
