@@ -19,7 +19,7 @@ Structur > Overall Structure
 
 #app_container {
 	margin: auto;
-  max-width: 350px;
+  max-width: 360px;
 }
 
 #add_task_section, 
@@ -146,7 +146,7 @@ Media Queries
 --------------------------------------------------*/
 
 /*If screen is bigger than 350 this size corrosponds to: #app_container widht*/
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 361px) {
 	body{
 		padding-top: 23px;
 		background-color: red
