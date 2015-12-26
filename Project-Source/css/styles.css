@@ -6,6 +6,15 @@ Global CSS
 	box-sizing:border-box;
 }
 
+/*adds border radioius to relavant elements*/
+.curve, 
+textarea, 
+button { 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
 /*end: Global CSS
 ---------------------------------------------------------------------------------------------------*/
 
@@ -145,7 +154,7 @@ div[empty-task-list-template] {
 Media Queries
 --------------------------------------------------*/
 
-/*If screen is bigger than 350 this size corrosponds to: #app_container widht*/
+/*If screen is bigger than 500 this size corrosponds to: #app_container widht*/
 @media screen and (min-width: 500px) {
 	
 	#app_container {
@@ -163,8 +172,40 @@ Media Queries
 		background: #e0e0e0 !important; 
 	}
 	
-	#clear_task_section { /*Makes the clear button expand both side to touch the edges.*/
+	/*Makes the clear button expand both side to touch the edges.*/
+	#clear_task_section { 
 		padding: 0; 
+	}
+	
+	/*add curve to the top two corners of the app container. We are 
+	only adding curves to the top two corners*/
+	#add_task_section {
+		-webkit-border-top-left-radius: 10px;
+		-webkit-border-top-right-radius: 10px;
+		
+		-moz-border-radius-topleft: 10px;
+		-moz-border-radius-topright: 10px;
+		
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	
+	/*adjust curve/border-radious for the clear button*/
+	#clear_task_section button {
+		/*remove curve from top two corners*/
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		
+		/*add 10px to the bottom two corners*/
+		-webkit-border-bottom-right-radius: 10px;
+		-webkit-border-bottom-left-radius: 10px;
+		
+		-moz-border-radius-bottomright: 10px;
+		-moz-border-radius-bottomleft: 10px;
+		
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 	}
 }
 
@@ -247,7 +288,7 @@ html {
 }
 
 #clear_task_section {
-	background: #eeeded;
+/*	background: #eeeded;*/
 }
 
 #task_input_field {
