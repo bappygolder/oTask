@@ -7,9 +7,9 @@ Live Hosted Website: http://bappygolder.github.io/oTask/
     <!--start: Add Task Section -->
     <div id="add_task_section">
         <form id="add_task" name="add_task">
-            <textarea ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ."></textarea>
+            <textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ."></textarea>
             <br/>
-            <button id="add_task_button" ng-class="{'btn-disabled' : vm.newDescription == ''}" ng-disabled="vm.newDescription == ''" ng-click="vm.addTask()">ADD</button>
+            <button class="curve" id="add_task_button" ng-class="{'btn-disabled' : vm.newDescription == ''}" ng-disabled="vm.newDescription == ''" ng-click="vm.addTask()">ADD</button>
         </form>
     </div>
     <!--end: #add_task_section-->
@@ -33,7 +33,7 @@ Live Hosted Website: http://bappygolder.github.io/oTask/
     <!--end: Task Section -->
 
     <div id="clear_task_section">
-        <button type="button" ng-click="vm.clearAllTasks()">Clear Tasks</button>
+        <button class="curve" type="button" ng-click="vm.clearAllTasks()">Clear Tasks</button>
     </div>    <!--end: #clear_task_section-->
 
 </div><!--end: #app_container-->
