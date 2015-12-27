@@ -34,11 +34,9 @@ This is just one way to use oTask. The possiblities are endless. Feel free to us
 The idea is if something is important enough you will remember it. Also the process of writing a task at the beginning of the sprint gets your brain into gear to complete that task. You can use **oTask** along with other todo lists and task management systems to get things done faster and more efficiently. 
 
 ## Start Contributing
-We would love to welcome you as a contributor. This is a very simple project. We would love to have new contributors help us with the project. This project can be a great way to get started with open soure projects as well. It is best if you contact me first before you start contributing:
+We would love to have you as a contributor. Click the link below to get started as a contributor.
 
-**skype: bappy14**
-
-If you have never worked with Git, open source projects or version control systems we would love to help you learn all these as you start with this project. You can start by following the instructions tutorial in [this link](https://github.com/bappygolder/Learn-GitHub-Desktop) and you will be well on your way to success in no times.
+[**Start Contributing >>**](https://bappy.typeform.com/to/rNtiON)
 
 ## Opensource & No Copyright
 **oTask** is currently opensource and there is no copyright on it. Feel free to contribute, update and and use for your own needs. Let us know if you have any questions. If you make any improvements we would love to see it. Feel free to let us know with a pull requests. 
