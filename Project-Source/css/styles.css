@@ -9,7 +9,8 @@ Global CSS
 /*adds border radioius to relavant elements*/
 .curve, 
 textarea, 
-button { 
+button,
+#task_section ul li /*task items*/ { 
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -137,9 +138,17 @@ div[empty-task-list-template] {
 
 .cross_mark {
 	position: absolute;
-    top: 0;
-    right: 0;
-
+	top: 0;
+	right: 0;
+	
+	/*remove curve from inside the buttons*/
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
 }
 .fade {
 	height: 100%; 
