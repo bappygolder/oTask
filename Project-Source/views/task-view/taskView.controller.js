@@ -44,6 +44,7 @@
             vm.isListEmpty = isTaskListEmpty();
             vm.newDescription = "";
             window.localStorage['taskList'] = angular.toJson(vm.taskList);
+            document.getElementById("task_input_field").focus();
         }
 
         function deleteTask(index) {
