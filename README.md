@@ -45,13 +45,11 @@ If you want to work on an issue or a feature that is great. We are following the
 
   1. Create a fork (if you don't already have one)
   2. [Choose the issue](https://github.com/bappygolder/oTask/issues) you want to work on.
-  3. If your fork is not up to date make sure it is up to date with our master branch. 
-  3. Make sure you make a feature branch first
-	
-*Note:* All branches are named after the issue number prefixed with **OT**. For exampele: `OT1`, `OT5`, `OT32` etc. The issue might not be named with **OT**. Please make sure your issue branch is still named with **OT** like: **`OT1`**, **`OT5`**, **`OT32`** etc.
-
-  4. We preffer only one person to work on a issue at a time. So right before you start working on an issue. Make sure you you make a simple comment on the (issue page on GitHub) letting everyone know you are working on this. 
+  3. If your fork is not up to date make sure it is up to date with **our master** branch. 
+  3. Make your feature branch. (*Note:* All branches are named after the issue number prefixed with **OT**. For exampele: `OT1`, `OT5`, `OT32` etc. The issue might not be named with **OT**. Please make sure your issue branch is still named with **OT** like: **`OT1`**, **`OT5`**, **`OT32`** etc.)
+  4. Let others know you are wokring on this issue by making a comment on the issue page.  
   5. Subscribe to the issue to see any future updates. 
+	6. Start working on the feature brunch until you get it fixed. 
   6. Once everything is working perfectly within your **forked version** of the code send a final pull request to us.
 
 Don't forget to ask if you need any help. Happy coading :+1:
