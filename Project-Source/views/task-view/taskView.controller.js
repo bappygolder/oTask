@@ -23,7 +23,13 @@
         start();
 
         function start() {
-            vm.taskList = [];
+            if (window.localStorage['taskList'] != undefined && window.localStorage['taskList'] != 'undefined') {
+                vm.taskList = JSON.parse(window.localStorage['taskList']);
+            }
+            else {
+                vm.taskList = [];
+            }
+
             vm.isListEmpty = isTaskListEmpty();
         }
 
@@ -36,16 +42,19 @@
             // Update and cleanup
             vm.isListEmpty = isTaskListEmpty();
             vm.newDescription = "";
+            window.localStorage['taskList'] = angular.toJson(vm.taskList);
         }
 
         function deleteTask(index) {
             vm.taskList.splice(index, 1);
             vm.isListEmpty = isTaskListEmpty();
+            window.localStorage['taskList'] = angular.toJson(vm.taskList);
         }
 
         function clearAllTasks() {
             vm.taskList = [];
             vm.isListEmpty = isTaskListEmpty();
+            window.localStorage['taskList'] = angular.toJson(vm.taskList);
         }
 
         function createNewTask() {
