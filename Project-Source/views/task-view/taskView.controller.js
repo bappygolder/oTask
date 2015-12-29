@@ -23,7 +23,8 @@
         start();
 
         function start() {
-            if (window.localStorage['taskList'] != undefined || window.localStorage['taskList'] != 'undefined') {
+            if (window.localStorage['taskList'] != undefined 
+								&& window.localStorage['taskList'] != 'undefined') {
                 vm.taskList = JSON.parse(window.localStorage['taskList']);
             }
             else {
