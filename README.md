@@ -34,7 +34,7 @@ This is just one way to use oTask. The possiblities are endless. Feel free to us
 
 The idea is if something is important enough you will remember it. Also the process of writing a task at the beginning of the sprint gets your brain into gear to complete that task. You can use **oTask** along with other todo lists and task management systems to get things done faster and more efficiently. 
 
-<a name="contribute"></a> <!-- internal link to this section -->
+<a name="contribute"></a>
 ## Start Contributing
 We would love to have you as a contributor. Click the link below to get started as a contributor.
 
