@@ -50,7 +50,7 @@ If you want to work on an issue or a feature that is great. We are following the
   4. Let others know you are wokring on this issue by making a comment on the issue page.  
   5. Subscribe to the issue to see any future updates. 
 	6. Start working on the feature brunch until you get it fixed. 
-  6. Once everything is working perfectly within your **forked version** of the code send a final pull request to us.
+  7. Once everything is working perfectly within your **forked version** of the code send a final pull request to us.
 
 Don't forget to ask if you need any help. Happy coading :+1:
 
