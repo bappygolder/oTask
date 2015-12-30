@@ -8,7 +8,7 @@ https://guides.github.com/features/mastering-markdown/
 *ReadMe Last Updated: 30 Dec 2015*
 
 ## Important Links
-- [Try oTask Now](http://bappygolder.github.io/oTask/Project-Source/#/taskView) - Live project website. 
+- [Try oTask Now >>](http://bappygolder.github.io/oTask/Project-Source/#/taskView)
 - [oTask Timeline](http://otask.tumblr.com/) - A timeline showing the evolution & progess of oTask.
 - [Contribute](#contribute)
 
