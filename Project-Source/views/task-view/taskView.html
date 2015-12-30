@@ -9,12 +9,13 @@
     <!--start: Add Task Section -->
     <div id="add_task_section">
         <form id="add_task" name="add_task">
-<<<<<<< HEAD
-            <textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New List Item . . ."></textarea>
-=======
-            <!--<textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>-->
+        
+            <!--
+            <textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>
+            -->
+            
             <dtextarea></dtextarea>
->>>>>>> e0a6a3192f2ea3350a6af4905eb68c70dcf47523
+
             <br/>
             <button class="curve" id="add_task_button" ng-class="{'btn-disabled' : vm.newDescription == ''}" ng-disabled="vm.newDescription == ''" ng-click="vm.addTask()">ADD</button>
         </form>
