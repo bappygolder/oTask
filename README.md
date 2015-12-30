@@ -43,7 +43,7 @@ We would love to have you as a contributor. Click the link below to get started 
 ## Branching: Working on an Issue/Feature
 If you want to work on an issue or a feature that is great. We are following the [forking workflow](https://guides.github.com/activities/forking/index.html) for oTask. Here are the steps. 
 
-- [ ] Create a fork (if you don't already have one)
+- [x] Create a fork (if you don't already have one)
 - [ ] [Choose the issue](https://github.com/bappygolder/oTask/issues) you want to work on.
 - [ ] If your fork is not up to date make sure it is up to date with **our master** branch. 
 - [ ] Make your feature branch. (*Note:* All branches are named after the issue number prefixed with **OT**. For exampele: `OT1`, `OT5`, `OT32` etc. The issue might not be named with **OT**. Please make sure your issue branch is still named with **OT** like: **`OT1`**, **`OT5`**, **`OT32`** etc.)
