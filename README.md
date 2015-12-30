@@ -51,6 +51,7 @@ If you want to work on an issue or a feature that is great. We are following the
   5. Subscribe to the issue to see any future updates. 
 	6. Start working on the feature brunch until you get things working. 
   7. Once everything is working perfectly within your **forked version** of the code send a final pull request to us.
+	8. Wait till one of us can get back to you. We'll review the code with you before merging. 
 
 Don't forget to ask if you need any help. Thank you in advance and happy coading :+1:
 
