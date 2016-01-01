@@ -80,7 +80,7 @@ div[empty-task-list-template] {
 
 #task_section ul li {
 	position: relative;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 	line-height: 50px;
 	list-style-type: none;
 	padding-left: 8px;
@@ -259,6 +259,7 @@ html {
 #task_section {
 	max-height: 400px;
 	overflow-y: scroll;
+	padding-bottom: 5px;
 }
 
 /* Scrollbar stuff */
@@ -354,7 +355,7 @@ body {
 }
 
 #task_section ul li { 
-	font-size: 20px;
+	font-size: 17px;
 }
 
 /*end: Fonts
