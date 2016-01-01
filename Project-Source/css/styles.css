@@ -80,7 +80,7 @@ div[empty-task-list-template] {
 
 #task_section ul li {
 	position: relative;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 	line-height: 50px;
 	list-style-type: none;
 	padding-left: 8px;
