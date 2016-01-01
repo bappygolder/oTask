@@ -259,6 +259,7 @@ html {
 #task_section {
 	max-height: 400px;
 	overflow-y: scroll;
+	padding-bottom: 5px;
 }
 
 /* Scrollbar stuff */
