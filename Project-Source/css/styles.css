@@ -111,8 +111,8 @@ div[empty-task-list-template] {
 #clear_task_section button {
 	width: 100%;
 	border: 0;
-    height: auto;
-    padding: 12px;
+	height: auto;
+	padding: 12px;
 }
 .dots { 
 	text-align: right;
@@ -297,7 +297,7 @@ html {
 }
 
 #clear_task_section {
-/*	background: #eeeded;*/
+	background: #eeeded;
 }
 
 #task_input_field {
