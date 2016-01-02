@@ -55,7 +55,8 @@ div[empty-task-list-template] {
 ----------------------------------------------------*/
 
 #add_task_section{
-	padding-top: 23px;	
+	padding-top: 23px;
+	margin-bottom: 14px;	
 }
 
 #add_task_section form {
@@ -79,7 +80,7 @@ div[empty-task-list-template] {
 
 #task_section ul li {
 	position: relative;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 	line-height: 50px;
 	list-style-type: none;
 	padding-left: 8px;
@@ -111,8 +112,8 @@ div[empty-task-list-template] {
 #clear_task_section button {
 	width: 100%;
 	border: 0;
-    height: auto;
-    padding: 12px;
+	height: auto;
+	padding: 12px;
 }
 .dots { 
 	text-align: right;
@@ -132,7 +133,7 @@ div[empty-task-list-template] {
 	text-transform: uppercase;
 	border: 0;
 	width: 100%;
-	margin: 8px 0;
+	margin: 10px 0;
 
 }
 
@@ -258,6 +259,7 @@ html {
 #task_section {
 	max-height: 400px;
 	overflow-y: scroll;
+	padding-bottom: 5px;
 }
 
 /* Scrollbar stuff */
@@ -297,7 +299,7 @@ html {
 }
 
 #clear_task_section {
-/*	background: #eeeded;*/
+	background: #eeeded;
 }
 
 #task_input_field {
@@ -310,7 +312,7 @@ html {
 #add_task_button { 
 	background: #ff3d00;
 	color: #fff;
-	margin-top: 7px;
+/*	margin-top: 7px;*/
  }
 #clear_task_section button {
 	background: #4caf50;
@@ -339,16 +341,22 @@ div[empty-task-list-template] {
 
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
-#add_task_button { 
-	 font-size: 19px;
 
-}
-#task_section ul li { font-size: 15px; }
 
 
 /*--------------------------------------------------------------------------------------------------
 Fonts
 ---------------------------------------------------------------------------------------------------*/
+body {
+	font-size: 20px	
+}
+
+#add_task_button { 
+}
+
+#task_section ul li { 
+	font-size: 17px;
+}
 
 /*end: Fonts
 ---------------------------------------------------------------------------------------------------*/

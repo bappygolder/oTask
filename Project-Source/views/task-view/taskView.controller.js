@@ -23,6 +23,7 @@
         start();
 
         function start() {
+						//check to see if there is an existing list already
             if (window.localStorage['taskList'] != undefined 
 								&& window.localStorage['taskList'] != 'undefined') {
                 vm.taskList = JSON.parse(window.localStorage['taskList']);
@@ -44,6 +45,7 @@
             vm.isListEmpty = isTaskListEmpty();
             vm.newDescription = "";
             window.localStorage['taskList'] = angular.toJson(vm.taskList);
+            document.getElementById("task_input_field").focus();
         }
 
         function deleteTask(index) {

@@ -9,7 +9,13 @@
     <!--start: Add Task Section -->
     <div id="add_task_section">
         <form id="add_task" name="add_task">
-            <textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New List Item . . ."></textarea>
+        
+            <!--
+            <textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>
+            -->
+            
+            <input-textarea></input-textarea>
+
             <br/>
             <button class="curve" id="add_task_button" ng-class="{'btn-disabled' : vm.newDescription == ''}" ng-disabled="vm.newDescription == ''" ng-click="vm.addTask()">ADD</button>
         </form>
@@ -27,7 +33,7 @@
                 <li ng-repeat="task in vm.taskList">
                     {{task.description}}
                     <span class="fade"></span>
-                    <button class="cross_mark" ng-click="vm.deleteTask($index)">&#x274C;</button>
+                    <button class="cross_mark" ng-click="vm.deleteTask($index)"><i class="fa fa-times"></i></button>
                 </li>
             </div>
         </ul>
