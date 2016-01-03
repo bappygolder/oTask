@@ -56,7 +56,6 @@ div[empty-task-list-template] {
 
 #add_task_section{
 	padding-top: 23px;
-	margin-bottom: 14px;	
 }
 
 #add_task_section form {
@@ -260,6 +259,7 @@ html {
 	max-height: 400px;
 	overflow-y: scroll;
 	padding-bottom: 5px;
+	padding-top: 10px;
 }
 
 /* Scrollbar stuff */
