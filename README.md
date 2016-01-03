@@ -40,9 +40,13 @@ The idea is if something is important enough you will remember it. Also the proc
 
 <a name="contribute"></a>
 ## Start Contributing
-We would love to have you as a contributor. Click the link below to get started as a contributor.
+oTask is just taking it's baby steps in the world. We can do with with lots of help. Wheather you know how to code or not you can help us take oTask forward. Here are a few ways you can help:
 
-[**Start Contributing >>**](https://bappy.typeform.com/to/rNtiON)
+- [**Contribute as a developer**](https://bappy.typeform.com/to/rNtiON)
+- Contribute as a non-developer
+- Contribute as a user
+
+(WIP in this section . . .)
 
 ## Branching: Working on an Issue/Feature
 If you want to work on an issue or a feature that is great. We are following the [forking workflow](https://guides.github.com/activities/forking/index.html) for oTask. Here are the steps. 

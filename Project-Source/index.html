@@ -7,63 +7,64 @@
 
 <!doctype html>
 <html ng-app="oTask">
-    <head>
-        <!-- Website Title -->
-        <title>oTask</title>
+<head>
+    <!-- Website Title -->
+    <title>oTask</title>
 
-        <!-- Meta information -->
-        <meta name="description" content="oTask - The Simplest ToDo List In The World">
-        <meta name="keywords" content="todo list, task management, free todo list, simple todo list"> 
-        	<!--Update required from research for above line-->
-        <meta name="author" content="Bappy Golder">
-				<meta charset="utf-8">	
-          
-        <!-- Mobile-friendly viewport -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Fav-icon -->
-        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-        <!-- End -->
-        
-        <!-- Style sheet link/s -->
-          <!-- Custom Font awesome -->
-          <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  
-          <!-- Bootstrap core CSS -->
-          <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
-        	
-          <!-- Main CSS -->
-        	<link rel="stylesheet" href="css/styles.css">
+    <!-- Meta information -->
+    <meta name="description" content="oTask - The Simplest ToDo List In The World">
+    <meta name="keywords" content="todo list, task management, free todo list, simple todo list">
+    <!--Update required from research for above line-->
+    <meta name="author" content="Bappy Golder">
+    <meta charset="utf-8">
 
-        <!-- IE Fix -->
-        <!--[if lt IE 9]>
+    <!-- Mobile-friendly viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fav-icon -->
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <!-- End -->
+
+    <!-- Style sheet link/s -->
+    <!-- Custom Font awesome -->
+    <!--<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">-->
+    <link href="/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- IE Fix -->
+    <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>ßß
         <![endif]-->
 
-    </head>
+</head>
 
-    <body ng-controller="ApplicationController">
+<body ng-controller="ApplicationController">
 
-        <div ui-view></div>
+    <div ui-view></div>
 
-        <!-- Vendor Dependencies -->
+    <!-- Vendor Dependencies -->
 
-        <!--jQuery link-->
-        <script src="js/default/jquery-1.11.3.min.js"></script>
+    <!--jQuery link-->
+    <script src="js/default/jquery-1.11.3.min.js"></script>
 
-        <!--AngularJS link-->
-        <script src="js/default/angular.min.js"></script>
-        <script src="js/default/angular-ui-router.js"></script>
+    <!--AngularJS link-->
+    <script src="js/default/angular.min.js"></script>
+    <script src="js/default/angular-ui-router.js"></script>
 
-        <!--App Link-->
-        <script src="js/app.js" type="text/javascript"></script>
-        <script src="js/router.js" type="text/javascript"></script>
+    <!--App Link-->
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/router.js" type="text/javascript"></script>
 
-        <!--Angular Directive/s-->
-        <script src="js/empty-task-list-template.js" type="text/javascript"></script>
-        <script src="views/task-view/taskView.directive.js" type="text/javascript"></script>
-        <!-- Angular Controllers -->
-        <script src="views/task-view/taskView.controller.js"></script>
-        
-  </body>
+    <!--Angular Directive/s-->
+    <script src="js/empty-task-list-template.js" type="text/javascript"></script>
+    <script src="views/task-view/taskView.directive.js" type="text/javascript"></script>
+    <!-- Angular Controllers -->
+    <script src="views/task-view/taskView.controller.js"></script>
+
+</body>
 </html>
