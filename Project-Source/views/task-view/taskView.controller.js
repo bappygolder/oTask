@@ -23,6 +23,7 @@
         start();
 
         function start() {
+						//check to see if there is an existing list already
             if (window.localStorage['taskList'] != undefined 
 								&& window.localStorage['taskList'] != 'undefined') {
                 vm.taskList = JSON.parse(window.localStorage['taskList']);

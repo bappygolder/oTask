@@ -14,7 +14,9 @@ https://guides.github.com/features/mastering-markdown/
 
 ## About
 
-[![oTask Launch Promo Picture - 1 January 2016](/Resources/oTask_Launch_Promo_-_Bappy_Golder.png)](https://www.youtube.com/watch?v=YxTWhN6kF-Y)
+<a href="https://www.youtube.com/watch?v=YxTWhN6kF-Y" target="_blank">
+![oTask Launch Promo Picture - 1 January 2016](/Resources/oTask_Launch_Promo_-_Bappy_Golder.png)
+</a>
 
 **oTask** is a simple and free ToDo List. It is not just an ordinary todo list. We believe oTask is a peaceful task management philosophy. The goal of **oTask** is to help you make a group of tasks that you can finish within a certain period of time (we call this **sprint**). Give oTask a try and let us know what you think.
 
@@ -38,9 +40,13 @@ The idea is if something is important enough you will remember it. Also the proc
 
 <a name="contribute"></a>
 ## Start Contributing
-We would love to have you as a contributor. Click the link below to get started as a contributor.
+oTask is just taking it's baby steps in the world. We can do with with lots of help. Wheather you know how to code or not you can help us take oTask forward. Here are a few ways you can help:
 
-[**Start Contributing >>**](https://bappy.typeform.com/to/rNtiON)
+- [**Contribute as a developer**](https://bappy.typeform.com/to/rNtiON)
+- Contribute as a non-developer
+- Contribute as a user
+
+(WIP in this section . . .)
 
 ## Branching: Working on an Issue/Feature
 If you want to work on an issue or a feature that is great. We are following the [forking workflow](https://guides.github.com/activities/forking/index.html) for oTask. Here are the steps. 
