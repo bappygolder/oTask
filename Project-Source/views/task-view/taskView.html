@@ -41,7 +41,9 @@
     <!--end: Task Section -->
 
     <div id="clear_task_section">
-        <button class="curve" type="button" ng-click="vm.clearAllTasks()">Clear List</button>
+        <button ng-show="!vm.isListEmpty" class="curve" type="button" ng-click="vm.clearAllTasks()">Clear List</button>
+        <!--About button when task is empty-->
+        <button ng-show="vm.isListEmpty" class="curve" type="button" onclick="window.location.href='http://otask.tumblr.com/about'">About oTask</button>
     </div>    <!--end: #clear_task_section-->
 
 </div><!--end: #app_container-->
