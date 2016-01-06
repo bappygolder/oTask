@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
+    <title>oTask</title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -20,12 +20,15 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script src="js/directive/inputTextarea.js"></script>
+    <script src="js/directive/emptyTaskListTemplate.js"></script>
   </head>
-  <body ng-app="starter">
+  <body ng-app="oTask">
 
     <ion-pane>
       <ion-header-bar class="bar-stable">
         <h1 class="title">Ionic Blank Starter</h1>
+        <input-textarea></input-textarea>
       </ion-header-bar>
       <ion-content>
       </ion-content>
