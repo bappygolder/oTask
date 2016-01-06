@@ -9,7 +9,7 @@ oTaskDirective.directive('inputTextarea',function(){
     restrict: 'E',
     template: '<textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New List Item ..."></textarea>',
     link: function(scope,element,attrs){
-      
+
 
     }
   };
