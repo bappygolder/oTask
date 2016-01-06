@@ -6,6 +6,16 @@ Global CSS
 	box-sizing:border-box;
 }
 
+/*adds border radioius to relavant elements*/
+.curve, 
+textarea, 
+button,
+#task_section ul li /*task items*/ { 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
 /*end: Global CSS
 ---------------------------------------------------------------------------------------------------*/
 
@@ -19,7 +29,7 @@ Structur > Overall Structure
 
 #app_container {
 	margin: auto;
-  max-width: 360px;
+  max-width: 500px;
 }
 
 #add_task_section, 
@@ -45,7 +55,7 @@ div[empty-task-list-template] {
 ----------------------------------------------------*/
 
 #add_task_section{
-	padding-top: 23px;	
+	padding-top: 23px;
 }
 
 #add_task_section form {
@@ -69,14 +79,13 @@ div[empty-task-list-template] {
 
 #task_section ul li {
 	position: relative;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 	line-height: 50px;
 	list-style-type: none;
 	padding-left: 8px;
 	position: relative;
 }
 
-/* Added by Eric Ruiz */
 #empty_msg {
 	color: #9e9e9e;
 	text-align: center;
@@ -88,7 +97,6 @@ div[empty-task-list-template] {
 	padding-top: 5px;
 	padding-left: 5px	;
 }
-/***********************/
 
 .cross_mark {
 	border: 0;
@@ -101,8 +109,8 @@ div[empty-task-list-template] {
 #clear_task_section button {
 	width: 100%;
 	border: 0;
-    height: auto;
-    padding: 12px;
+	height: auto;
+	padding: 12px;
 }
 .dots { 
 	text-align: right;
@@ -122,15 +130,23 @@ div[empty-task-list-template] {
 	text-transform: uppercase;
 	border: 0;
 	width: 100%;
-	margin: 8px 0;
+	margin: 10px 0;
 
 }
 
 .cross_mark {
 	position: absolute;
-    top: 0;
-    right: 0;
-
+	top: 0;
+	right: 0;
+	
+	/*remove curve from inside the buttons*/
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
 }
 .fade {
 	height: 100%; 
@@ -145,15 +161,16 @@ div[empty-task-list-template] {
 Media Queries
 --------------------------------------------------*/
 
-/*If screen is bigger than 350 this size corrosponds to: #app_container widht*/
-@media screen and (min-width: 361px) {
-	body{
-		padding-top: 23px;
-		background-color: red
-	}
+/*If screen is bigger than 500 this size corrosponds to: #app_container widht*/
+@media screen and (min-width: 500px) {
 	
 	#app_container {
 		max-width: 320px;
+	}	
+	
+	body{
+		padding-top: 23px;
+		background-color: red
 	}
 	
 	/*update color from #eee to show seperation*/
@@ -162,8 +179,40 @@ Media Queries
 		background: #e0e0e0 !important; 
 	}
 	
-	#clear_task_section { /*Makes the clear button expand both side to touch the edges.*/
+	/*Makes the clear button expand both side to touch the edges.*/
+	#clear_task_section { 
 		padding: 0; 
+	}
+	
+	/*add curve to the top two corners of the app container. We are 
+	only adding curves to the top two corners*/
+	#add_task_section {
+		-webkit-border-top-left-radius: 10px;
+		-webkit-border-top-right-radius: 10px;
+		
+		-moz-border-radius-topleft: 10px;
+		-moz-border-radius-topright: 10px;
+		
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+	}
+	
+	/*adjust curve/border-radious for the clear button*/
+	#clear_task_section button {
+		/*remove curve from top two corners*/
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		
+		/*add 10px to the bottom two corners*/
+		-webkit-border-bottom-right-radius: 10px;
+		-webkit-border-bottom-left-radius: 10px;
+		
+		-moz-border-radius-bottomright: 10px;
+		-moz-border-radius-bottomleft: 10px;
+		
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
 	}
 }
 
@@ -207,6 +256,8 @@ html {
 #task_section {
 	max-height: 400px;
 	overflow-y: scroll;
+	padding-bottom: 5px;
+	padding-top: 10px;
 }
 
 /* Scrollbar stuff */
@@ -259,7 +310,7 @@ html {
 #add_task_button { 
 	background: #ff3d00;
 	color: #fff;
-	margin-top: 7px;
+/*	margin-top: 7px;*/
  }
 #clear_task_section button {
 	background: #4caf50;
@@ -288,16 +339,26 @@ div[empty-task-list-template] {
 
 /*end: Colors
 ---------------------------------------------------------------------------------------------------*/
-#add_task_button { 
-	 font-size: 19px;
 
-}
-#task_section ul li { font-size: 15px; }
 
 
 /*--------------------------------------------------------------------------------------------------
 Fonts
 ---------------------------------------------------------------------------------------------------*/
+body {
+	font-size: 20px	
+}
+
+#add_task_button { 
+}
+
+#task_section ul li { 
+	font-size: 17px;
+}
+
+#empty_msg {
+	font-size: 14px;
+}
 
 /*end: Fonts
 ---------------------------------------------------------------------------------------------------*/
