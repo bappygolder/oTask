@@ -38,7 +38,7 @@
 			"density": 4
 		}
 	],
-	"start_url": "otask.bups.co",
+	"start_url": "http://bappygolder.github.io/oTask/Project-Source/#/taskView",
 	"display": "standalone",
 	"orientation": "portrait"
 }
