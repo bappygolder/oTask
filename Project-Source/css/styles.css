@@ -79,10 +79,11 @@ div[empty-task-list-template] {
 #task_section ul li {
     position: relative;
     margin-bottom: 7px;
-    line-height: 50px;
+    line-height: 140%;
     list-style-type: none;
-    padding-left: 8px;
+    padding: 14px 10px;
     position: relative;
+		min-height: 50px;
 }
 
 #empty_msg {
@@ -288,9 +289,8 @@ html {
 /* End Scrollbar stuff */
 
 #task_section ul li {
-    padding-right: 50px;
+    /*padding-right: 50px;*/
     background: #E0E0E0;
-    position: relative;
     font-size: 17px;
 }
 
@@ -301,7 +301,7 @@ html {
 }
 
 #clear_task_section {
-    background: #eeeded;
+/*    background: #eeeded;*/
 }
 
 #task_input_field {
