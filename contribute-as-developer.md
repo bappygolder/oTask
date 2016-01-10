@@ -7,7 +7,11 @@ If you know how to code there's many different ways you can contribute. The proj
 - JavaScript
 - AngularJS
 
-If are are familier with any of the above tehnologies you can contribute as a developer. 
+If are are familier with any of the above tehnologies you can contribute as a developer. You also need to be femilier with the following technology/processes:
+
+`Git`, `GitHub` and `Forking Workflow`. 
+
+If you are not famiier with any of the above we are happy to teach you if you are willing to learn. Just let us know.
 
 ## How to contribute
 
