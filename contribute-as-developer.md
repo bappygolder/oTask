@@ -17,16 +17,21 @@ Since this is an open source project most developers are contributing in the pro
 [oTask Volunteer Contributor Form >>](#) (Link currenlty not available, will be available soon)
 
 ##### Volunteer Benifits
-- Volunteers gets priority for paid work for this project or other projects for the team.
-- Depending on your contribution we sometimes provide some monetery compensations.
+- When we need new team members we give priority to our volunteers first. As a volunteers you have a lot more chance to be hired for our different projects than others who apply.
+- Depending on your contribution you might recieve some monetery compensations. We provide this to dedicated contributors that can result in a permanent arrangement. 
 - Your name gets mentioned to all our publications as credit (i.e: Blogs, project posts, audio and video publications)
-- Team members recomend and endorse one another for thier work in LinkedIn. 
-- As volunteers you become friends with other oTask team members. 
-- We will help you as much as we can with your other projects.
-- We may hire you for a permanent position.
+- You get recomend and endorse by other contributors in LinkedIn. 
+- We try to help contributors as much as possible in any ways we can.
+- We recommned volunteer contributors to internal and etarnal job and other opportunities.
+- As volunteers you get opportunities to our future busniesss partnership for the project you are working on. 
+
+Volunteering is the best way to get started as a contributor in any of our projects.
+
+[oTask Volunteer Contributor Form >>](#) (Link currenlty not available, will be available soon)
 
 
 #### Contribute as a paid team memeber
+We hire paid contibutors or organize compensation arrangment for regular contributors under different circumstance. if you want to be considered as a paid contributor please use the link below. 
 
 [oTask Paid Contributor Form >>](#) (Link currenlty not available, will be available soon)
 
