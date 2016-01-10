@@ -22,7 +22,7 @@ Since this is an open source project most developers are contributing in the pro
 
 ##### Volunteer Benifits
 - When we need new team members we give priority to our volunteers first. As a volunteers you have a lot more chance to be hired for our different projects than others who apply.
-- Depending on your contribution you might recieve some monetery compensations. We provide this to dedicated contributors that can result in a permanent arrangement. 
+- Depending on your contribution you may be considered for monetery compensations. We provide this to dedicated contributors that can result in a permanent arrangement. 
 - Your name gets mentioned to all our publications as credit (i.e: Blogs, project posts, audio and video publications)
 - You get recomend and endorse by other contributors in LinkedIn. 
 - We try to help contributors as much as possible in any ways we can.
