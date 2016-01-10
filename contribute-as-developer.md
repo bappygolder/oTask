@@ -15,7 +15,7 @@ If you are not famiier with any of the above we are happy to teach you if you ar
 
 ## How to contribute
 
-#### Contribute as a volunteer
+#### **Contribute as a volunteer**
 Since this is an open source project most developers are contributing in the project as a volunteer. You are welcome to join as a volunteer at any time. To start working as a volunteer please fill out the form bellow.
 
 [oTask Volunteer Contributor Form >>](#) (Link currenlty not available, will be available soon)
@@ -35,7 +35,7 @@ Volunteering is the best way to get started as a contributor in any of our proje
 [oTask Volunteer Contributor Form >>](#) (Link currenlty not available, will be available soon)
 
 
-#### Contribute as a paid team memeber
+#### **Contribute as a paid team memeber**
 We hire paid contibutors or organize compensation arrangment for regular contributors under different circumstance. if you want to be considered as a paid contributor please use the link below. 
 
 [oTask Paid Contributor Form >>](#) (Link currenlty not available, will be available soon)
