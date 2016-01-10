@@ -16,19 +16,19 @@ If you are not famiier with any of the above we are happy to teach you if you ar
 ## How to contribute
 
 #### **Contribute as a volunteer**
-Since this is an open source project most developers are contributing in the project as a volunteer. You are welcome to join as a volunteer at any time. To start working as a volunteer please fill out the form bellow.
-
-[oTask Volunteer Contributor Form >>](#) (Link currenlty not available, will be available soon)
+Since this is an open source project most developers are contributing in the project as a volunteer. You are welcome to join as a volunteer at any time. 
 
 ##### Volunteer Benifits
-- When we need new team members we give priority to our volunteers first. As a volunteers you have a lot more chance to be hired for our different projects than others who apply.
+- When we need new team members we give priority to our volunteers first. As a volunteers you have a lot more chance to be hired for our different paid roles than others who apply.
 - Depending on your contribution you may be considered for monetery compensations. We provide this to dedicated contributors that can result in a permanent arrangement. 
 - Your name gets mentioned to all our publications as credit (i.e: Blogs, project posts, audio and video publications)
 - We try to help contributors as much as possible in any ways we can.
 - As volunteers you get opportunities to our future busniesss partnership for the project you are working on. 
-- You get direct mentorship from our contributors. 
+- You get an opportunity to teach other contributors and improve your skills that way.	
+- You get direct mentorship from other contributors. 
 - You get recomend and endorse by other contributors in LinkedIn. 
 - We recommned volunteer contributors to internal and etarnal job and other opportunities.
+- You become part of a greater worldwide community.
 
 Volunteering is the best way to get started as a contributor in any of our projects.
 
