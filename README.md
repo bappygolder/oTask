@@ -45,8 +45,8 @@ oTask is just taking baby steps. We can do with with lots of help. Wheather you 
 
 - [**Contribute as a designer or developer**](https://github.com/bappygolder/oTask/blob/master/contribute-as-developer.md)
 - [Contribute as a non-technical team member](https://github.com/bappygolder/oTask/blob/master/contribute%20as%20a%20non-technical%20team%20member.md)
-- [Contribute as a user](#) Linke not working will be available soon.
-- [Contribute as a finalcial partner](#) Linke not working will be available soon.
+- [Contribute as a user](https://github.com/bappygolder/oTask/blob/master/Contribute%20as%20a%20user.md)
+- [Contribute as a finalcial partner](https://github.com/bappygolder/oTask/blob/master/Contribute%20as%20a%20finalcial%20partner%20or%20sponsor.md)
 
 (WIP in this section . . .)
 
