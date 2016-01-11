@@ -41,11 +41,12 @@ The idea is if something is important enough you will remember it. Also the proc
 
 <a name="contribute"></a>
 ## Start Contributing
-oTask is just taking it's baby steps in the world. We can do with with lots of help. Wheather you know how to code or not you can help us take oTask forward. Here are a few ways you can help:
+oTask is just taking baby steps. We can do with with lots of help. Wheather you know how to code or not you can help us take oTask forward. Here are a few ways you can help:
 
-- [**Contribute as a developer**](https://github.com/bappygolder/oTask/blob/master/contribute-as-developer.md)
-- [Contribute as a non-developer](#) Linke not working will be available soon.
+- [**Contribute as a designer or developer**](https://github.com/bappygolder/oTask/blob/master/contribute-as-developer.md)
+- [Contribute as a non-technical team member](#) Linke not working will be available soon.
 - [Contribute as a user](#) Linke not working will be available soon.
+- [Contribute as a finalcial partner or sponsor](#) Linke not working will be available soon.
 
 (WIP in this section . . .)
 
