@@ -44,9 +44,9 @@ The idea is if something is important enough you will remember it. Also the proc
 oTask is just taking baby steps. We can do with with lots of help. Wheather you know how to code or not you can help us take oTask forward. Here are a few ways you can help:
 
 - [**Contribute as a designer or developer**](https://github.com/bappygolder/oTask/blob/master/contribute-as-developer.md)
-- [Contribute as a non-technical team member](#) Linke not working will be available soon.
+- [Contribute as a non-technical team member](https://github.com/bappygolder/oTask/blob/master/contribute%20as%20a%20non-technical%20team%20member.md)
 - [Contribute as a user](#) Linke not working will be available soon.
-- [Contribute as a finalcial partner or sponsor](#) Linke not working will be available soon.
+- [Contribute as a finalcial partner](#) Linke not working will be available soon.
 
 (WIP in this section . . .)
 
