@@ -48,7 +48,7 @@ oTask is just taking baby steps. We can do with with lots of help. Wheather you 
 - [Contribute as a user](https://github.com/bappygolder/oTask/blob/master/Contribute%20as%20a%20user.md)
 - [Contribute as a finalcial partner](https://github.com/bappygolder/oTask/blob/master/Contribute%20as%20a%20finalcial%20partner%20or%20sponsor.md)
 
-(WIP in this section . . .)
+(Work in progress . . .)
 
 ## Branching: Working on an Issue/Feature
 If you want to work on an issue or a feature that is great. We are following the [forking workflow](https://guides.github.com/activities/forking/index.html) for oTask. Here are the steps. 
