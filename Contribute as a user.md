@@ -1,5 +1,5 @@
 # Recommend oTask
-If you are a current user and like oTask please recommend it to others who you think will find it useful. The more people uses oTask the more reasons we have to keep develping it. 
+If you are currntly using oTask, the best way to help us is by recommneding oTask to others who you think will find it useful. The more people uses oTask the more reasons we have to keep making it better. 
 
 # Contribute As A User
 
