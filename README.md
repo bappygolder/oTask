@@ -41,13 +41,14 @@ The idea is if something is important enough you will remember it. Also the proc
 
 <a name="contribute"></a>
 ## Start Contributing
-oTask is just taking it's baby steps in the world. We can do with with lots of help. Wheather you know how to code or not you can help us take oTask forward. Here are a few ways you can help:
+oTask is just taking baby steps. We can do with with lots of help. Wheather you know how to code or not you can help us take oTask forward. Here are a few ways you can help:
 
-- [**Contribute as a developer**](https://bappy.typeform.com/to/rNtiON)
-- Contribute as a non-developer
-- Contribute as a user
+- [**Contribute as a designer or developer**](https://github.com/bappygolder/oTask/blob/master/contribute-as-developer.md)
+- [Contribute as a non-technical team member](https://github.com/bappygolder/oTask/blob/master/contribute%20as%20a%20non-technical%20team%20member.md)
+- [Contribute as a user](https://github.com/bappygolder/oTask/blob/master/Contribute%20as%20a%20user.md)
+- [Contribute as a finalcial partner](https://github.com/bappygolder/oTask/blob/master/Contribute%20as%20a%20finalcial%20partner%20or%20sponsor.md)
 
-(WIP in this section . . .)
+(Work in progress . . .)
 
 ## Branching: Working on an Issue/Feature
 If you want to work on an issue or a feature that is great. We are following the [forking workflow](https://guides.github.com/activities/forking/index.html) for oTask. Here are the steps. 
