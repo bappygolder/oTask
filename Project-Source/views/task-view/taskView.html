@@ -6,21 +6,23 @@
 -->
 <div id="app_container">
 
-    <!--start: Add Task Section -->
-    <div id="add_task_section">
-        <form id="add_task" name="add_task">
-        
-            <!--
-            <textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>
-            -->
-            
-            <input-textarea></input-textarea>
-
-            <br/>
-            <button class="curve" id="add_task_button" ng-class="{'btn-disabled' : vm.newDescription == ''}" ng-disabled="vm.newDescription == ''" ng-click="vm.addTask()">ADD</button>
-        </form>
-    </div>
-    <!--end: #add_task_section-->
+  <!--start: Add Task Section -->
+  <div id="add_task_section">
+    <form id="add_task" name="add_task">
+    
+      <!--<textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>-->
+      
+      <input-textarea></input-textarea>
+  
+      <br/>
+      <button class="curve" 
+              id="" 
+              ng-class="{'btn-disabled' : vm.newDescription == ''}" 
+              ng-disabled="vm.newDescription == ''" 
+              ng-click="vm.addTask()">ADD</button>
+    </form>
+  </div>
+  <!--end: #add_task_section-->
 
     <!--start: Task Section -->
     <div id="task_section">
@@ -43,7 +45,8 @@
                         <input type="checkbox" name="done" value="Done">
                         <!--<span>Created On: 2nd Jan 2016</span>-->
                         <span>{{ task.timestamp | date : 'medium'}}</span>
-                        <button class="cross_mark" ng-click="vm.deleteTask($index)"><i class="fa fa-times"></i></button>
+                        <button class="cross_mark" 
+                        				ng-click="vm.deleteTask($index)"><i class="fa fa-times"></i></button>
                     </div>
                     <div class="task-bottom">
                         <span>{{task.description}}</span>
@@ -54,9 +57,14 @@
     <!--end: Task Section -->
 
     <div id="clear_task_section">
-        <button ng-show="!vm.isListEmpty" class="curve" type="button" ng-click="vm.clearAllTasks()">Clear List</button>
+        <button ng-show="!vm.isListEmpty" 
+                class="curve" 
+                type="button" 
+                ng-click="vm.clearAllTasks()">Clear List</button>
+        
         <!--About button when task is empty-->
         <button ng-show="vm.isListEmpty" class="curve" type="button" onclick="window.open('http://otask.tumblr.com/about')">About oTask</button>
-    </div>    <!--end: #clear_task_section-->
+        
+    </div><!--end: #clear_task_section-->
 
 </div><!--end: #app_container-->
