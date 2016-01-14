@@ -28,15 +28,30 @@
         <div id="empty_msg" ng-if="vm.isListEmpty">Your list is empty. Add something new!</div>
 
         <!-- Show list if tasks exists -->
-        <ul ng-if="!vm.isListEmpty">
+        <!--<ul ng-if="!vm.isListEmpty">
             <div class="task">
                 <li ng-repeat="task in vm.taskList">
                     {{task.description}}
-                    <!--<span class="fade"></span>-->
+                    &lt;!&ndash;<span class="fade"></span>&ndash;&gt;
                     <button class="cross_mark" ng-click="vm.deleteTask($index)"><i class="fa fa-times"></i></button>
                 </li>
             </div>
-        </ul>
+        </ul>-->
+        <div class="task-wrapper" ng-if="!vm.isListEmpty">
+                <div class="task curve" ng-repeat="task in vm.taskList">
+                    <div class="task-top">
+                        <input type="checkbox" name="done" value="Done">
+                        <!--<span>Created On: 2nd Jan 2016</span>-->
+                        <span>{{ task.timestamp | date : 'medium'}}</span>
+                        <button class="cross_mark" ng-click="vm.deleteTask($index)"><i class="fa fa-times"></i></button>
+                    </div>
+                    <div class="task-bottom">
+                        <span>{{task.description}}</span>
+                    </div>
+
+
+                </div>
+        </div>
     </div>
     <!--end: Task Section -->
 
