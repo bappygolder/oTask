@@ -32,7 +32,7 @@
             <div class="task">
                 <li ng-repeat="task in vm.taskList">
                     {{task.description}}
-                    &lt;!&ndash;<span class="fade"></span>&ndash;&gt;
+                    <span class="fade"></span>
                     <button class="cross_mark" ng-click="vm.deleteTask($index)"><i class="fa fa-times"></i></button>
                 </li>
             </div>
@@ -48,8 +48,6 @@
                     <div class="task-bottom">
                         <span>{{task.description}}</span>
                     </div>
-
-
                 </div>
         </div>
     </div>

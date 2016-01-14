@@ -62,7 +62,10 @@
         }
 
         function createNewTask() {
-            return { description: "",timestamp: "" }
+            return { 
+							description: "", 
+							timestamp: "" 						
+						}
         }
 
         function isTaskListEmpty() {
