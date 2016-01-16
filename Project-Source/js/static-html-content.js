@@ -10,5 +10,3 @@
 	$("title").append(app_title);
 	$("#add_task_button").append(add_button_text);
 	$("#empty_msg").append(empty_list_message);
-	
-  //test
