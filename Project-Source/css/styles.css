@@ -1,4 +1,13 @@
 /*--------------------------------------------------------------------------------------------------
+Test CSS
+---------------------------------------------------------------------------------------------------*/
+.task-bottom{
+	 /*background: pink;*/
+}
+/*end: Test CSS
+---------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------
 Global CSS
 ---------------------------------------------------------------------------------------------------*/
 * {
@@ -96,8 +105,8 @@ div[empty-task-list-template] {
 .task {
     /*padding-left: 5px;*/
     /*padding-right: 5px;*/
-    /*min-height: 50px;
-    border: 1px solid black;
+    /*min-height: 50px;*/
+    /*border: 1px solid black;*/
     margin-bottom: 7px;
     line-height: 140%;
     list-style-type: none;
@@ -105,7 +114,7 @@ div[empty-task-list-template] {
     position: relative;
     min-height: 50px;
     background: #E0E0E0;
-    font-size: 17px;*/
+    font-size: 17px;
 }
 
 .cross_mark {
@@ -174,10 +183,11 @@ div[empty-task-list-template] {
     min-height: 342px;
 }
 
-.task-top{
+.action-buttons{
     min-height: 35px;
+		display: none;
 }
-.task-top span{
+.action-buttons span{
     padding-left: 12px;
     font-size:12px;
 }
