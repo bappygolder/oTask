@@ -51,13 +51,22 @@
         </ul>-->
         <div class="task-wrapper" ng-if="!vm.isListEmpty">
             <div class="task curve" ng-repeat="task in vm.taskList">
-                <div class="task-top">
-                    <input type="checkbox" ng-hide="true" name="done" value="Done">
-                    <span ng-hide="true">{{ task.timestamp | date : 'medium'}}</span>
-                    <button class="cross_mark" ng-click="vm.deleteTask($index)"><i class="fa fa-times"></i></button>
-                </div>
+                
                 <div class="task-bottom">
                     <span>{{task.description}}</span>
+                </div>
+                
+                <button class="cross_mark" 
+                        ng-click="vm.deleteTask($index)">
+                        <i class="fa fa-times"></i>
+                </button>   
+                             
+                <div class="action-buttons">
+                    <input	type="checkbox" 
+                            ng-hide="true" 
+                            name="done" 
+                            value="Done">
+                    <span ng-hide="true">{{ task.timestamp | date : 'medium'}}</span>
                 </div>
             </div>
         </div>
