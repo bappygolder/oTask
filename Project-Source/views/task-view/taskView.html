@@ -10,14 +10,19 @@
     <div id="add_task_section">
         <form id="add_task" name="add_task">
         
-            <!--
-            <textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>
-            -->
+            <!--<textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>-->
             
             <input-textarea></input-textarea>
 
             <br/>
-            <button class="curve" id="add_task_button" ng-class="{'btn-disabled' : vm.newDescription == ''}" ng-disabled="vm.newDescription == ''" ng-click="vm.addTask()">ADD</button>
+            
+            <button class="curve" 
+                    id="add_task_button" 
+                    ng-class="{'btn-disabled' : vm.newDescription == ''}" 
+                    ng-disabled="vm.newDescription == ''" 
+                    ng-click="vm.addTask()">
+            </button><!--Button content/text added from the file -> static-html-content.js -->
+            
         </form>
     </div>
     <!--end: #add_task_section-->
@@ -25,7 +30,9 @@
     <!--start: Task Section -->
     <div id="task_section">
         <!-- Show Empty text if no tasks exist -->
-        <div id="empty_msg" ng-if="vm.isListEmpty">Your list is empty. Add something new!</div>
+        <div 	id="empty_msg"
+        			ng-if="vm.isListEmpty">
+        </div><!--Content/text added from the file -> static-html-content.js -->
 
         <!-- Show list if tasks exists -->
         <ul ng-if="!vm.isListEmpty">
@@ -33,17 +40,31 @@
                 <li ng-repeat="task in vm.taskList">
                     {{task.description}}
                     <!--<span class="fade"></span>-->
-                    <button class="cross_mark" ng-click="vm.deleteTask($index)"><i class="fa fa-times"></i></button>
+                    <button class="cross_mark" 
+                    				ng-click="vm.deleteTask($index)">
+                    	<i class="fa fa-times"></i>
+                    </button>
                 </li>
             </div>
         </ul>
-    </div>
-    <!--end: Task Section -->
+    </div><!--end: Task Section -->
 
     <div id="clear_task_section">
-        <button ng-show="!vm.isListEmpty" class="curve" type="button" ng-click="vm.clearAllTasks()">Clear List</button>
+    
+        <button ng-show="!vm.isListEmpty" 
+                class="curve" type="button" 
+                ng-click="vm.clearAllTasks()">Clear List
+        </button>
+        
         <!--About button when task is empty-->
-        <button ng-show="vm.isListEmpty" class="curve" type="button" onclick="window.open('http://otask.tumblr.com/about')">About oTask</button>
-    </div>    <!--end: #clear_task_section-->
+        <button ng-show="vm.isListEmpty" 
+                class="curve" 
+                type="button" 
+                onclick="window.open('http://otask.tumblr.com/about')">About oTask
+        </button>
+    </div><!--end: #clear_task_section-->
+
+<!--Javascript File Links-->
+<script src="js/static-html-content.js" type="text/javascript"></script>
 
 </div><!--end: #app_container-->
