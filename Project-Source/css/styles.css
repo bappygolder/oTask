@@ -94,13 +94,23 @@ div[empty-task-list-template] {
 }
 
 .task {
-    padding-top: 5px;
-    padding-left: 5px;
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+    min-height: 50px;
+    /*border: 1px solid black;*/
+    margin-bottom: 7px;
+    line-height: 140%;
+    list-style-type: none;
+    padding: 14px 10px;
+    position: relative;
+    min-height: 50px;
+    background: #E0E0E0;
+    font-size: 17px;
 }
 
 .cross_mark {
     border: 0;
-    float: right;
+    /*float: right;*/
     height: 50px;
     width: 50px;
     text-align: center;
@@ -158,6 +168,18 @@ div[empty-task-list-template] {
     top: 0;
     right: 52px;
 
+}
+
+.task-wrapper{
+    min-height: 342px;
+}
+
+.task-top{
+    min-height: 35px;
+}
+.task-top span{
+    padding-left: 12px;
+    font-size:12px;
 }
 
 /*--------------------------------------------------
