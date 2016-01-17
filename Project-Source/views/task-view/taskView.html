@@ -49,18 +49,21 @@
         </ul>
     </div><!--end: Task Section -->
 
-    <div id="clear_task_section">
+    <div id="clear_task_section">	
     
-        <button ng-show="!vm.isListEmpty" 
-                class="curve" type="button" 
-                ng-click="vm.clearAllTasks()">Clear List
+        <button id="clear_list_button"
+        				ng-show="!vm.isListEmpty" 
+                class="curve" 
+                type="button" 
+                ng-click="vm.clearAllTasks()">
         </button>
         
         <!--About button when task is empty-->
-        <button ng-show="vm.isListEmpty" 
+        <button id="about_otask_button"
+        				ng-show="vm.isListEmpty" 
                 class="curve" 
                 type="button" 
-                onclick="window.open('http://otask.tumblr.com/about')">About oTask
+                onclick="window.open('http://otask.tumblr.com/about')">
         </button>
     </div><!--end: #clear_task_section-->
 
