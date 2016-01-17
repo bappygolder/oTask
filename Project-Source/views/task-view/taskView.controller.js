@@ -39,6 +39,7 @@
             // Create and add
             var newTask = createNewTask();
             newTask.description = vm.newDescription;
+            newTask.timestamp = new Date().getTime();
             vm.taskList.push(newTask);
 
             // Update and cleanup
@@ -61,7 +62,7 @@
         }
 
         function createNewTask() {
-            return { description: "" }
+            return { description: "",timestamp: "" }
         }
 
         function isTaskListEmpty() {
