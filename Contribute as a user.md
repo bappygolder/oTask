@@ -15,7 +15,7 @@ We have been driving the development of oTask based on your feedback so **please
 
 ### A list of current users.
 
-*Last updated: 12 Jan 16*
+*Last updated: 20 Jan 16*
 
 - Bappy G.
 - Jason B.
@@ -24,6 +24,7 @@ We have been driving the development of oTask based on your feedback so **please
 - Tim E.
 - Niraj KC.
 - Jonathan T.
+- Lucy Q
 
 
 
