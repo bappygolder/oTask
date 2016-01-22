@@ -22,3 +22,12 @@ angular.module('oTask', ['ionic','oTask.Directive'])
     }
   });
 })
+
+.config(function($stateProvider){
+  
+  $stateProvider.state('home', {
+    url: '/',
+    template: '<p>Hello, world!</p>' //TODO Put the template here
+  })
+  
+})
