@@ -23,11 +23,13 @@ angular.module('oTask', ['ionic','oTask.Directive'])
   });
 })
 
-.config(function($stateProvider){
+.config(function($stateProvider,$urlRouterProvider){
   
   $stateProvider.state('home', {
     url: '/',
-    template: '<p>Hello, world!</p>' //TODO Put the template here
+    templateUrl: 'views/task.html'
   })
+  
+  $urlRouterProvider.otherwise('/');
   
 })
