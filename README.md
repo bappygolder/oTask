@@ -19,9 +19,7 @@ https://guides.github.com/features/mastering-markdown/
 ![oTask Launch Promo Picture - 1 January 2016](/Resources/oTask_Launch_Promo_-_Bappy_Golder.png)
 </a>
 
-**oTask** is a simple and free ToDo List. It is not just an ordinary todo list. We believe oTask is a peaceful task management philosophy. The goal of **oTask** is to help you make a group of tasks that you can finish within a certain period of time (we call this **sprint**). Give oTask a try and let us know what you think.
-
-The name **oTask** is short for ***Zero Task***. The goal of oTask is to get you an empty list quickly. 
+[Find out more about **oTask**](http://otask.tumblr.com/about)
 
 ## How to use oTask
 Each sessions you use on oTask is called a **Sprint**. The time you choose to finish your sprint is called **sprint end time or SET**. 
@@ -80,5 +78,6 @@ Internal Resources
 
 Similar Services/Products:
 	https://pomodoro.cc/
+	A simle test change
 ---------------->
 
