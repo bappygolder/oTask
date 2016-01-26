@@ -9,8 +9,11 @@
 	//var clear_list_text = "Clear List"; //need to work it out still
 
 //add content to HTML DOM | TEMPLATE: $("#").append();
-	$("title").html(app_title_text);
-	$("#add_task_button").html(add_button_text);
-	$("#empty_msg").html(empty_list_message_text);
-	$("#clear_list_button").html(clear_list_text);
-	$("#about_otask_button").html(about_otask_text);
+	$("title").append(app_title_text);
+	$("#add_task_button").append(add_button_text);
+	$("#empty_msg").append(empty_list_message_text);
+	$("#clear_list_button").append(clear_list_text);
+	$("#about_otask_button").append(about_otask_text);
+
+//Change text Dynamically ..
+var dynamic_placeholder_texts = ['i.e: Check the letter-box', "i.e: Good oTask!","i.e: Awesome oTask!","i.e: Super oTask!","i.e: Nice oTask!","i.e: Great oTask!"]
