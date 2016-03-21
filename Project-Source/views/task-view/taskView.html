@@ -52,7 +52,7 @@
         <div class="task-wrapper" ng-if="!vm.isListEmpty">
             <div class="task curve" ng-repeat="task in vm.taskList">
                 
-                <div class="task-bottom">
+                <div class="task-bottom"  ng-click="divalert($event)">
                     <span>{{task.description}}</span>
                 </div>
                 
@@ -60,7 +60,11 @@
                         ng-click="vm.deleteTask($index)">
                         <i class="fa fa-times"></i>
                 </button>   
-                             
+              <button type="button" class="vtr-iconbar" ng-click="divoverlay($event)">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+              </button>           
                 <div class="action-buttons">
                     <input	type="checkbox" 
                             ng-hide="true" 
@@ -68,6 +72,7 @@
                             value="Done">
                     <span ng-hide="true">{{ task.timestamp | date : 'medium'}}</span>
                 </div>
+                <div class="overlay"><i class="fa fa-arrows-v"></i></div>
             </div>
         </div>
     </div>

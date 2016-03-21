@@ -55,10 +55,15 @@
             window.localStorage['taskList'] = angular.toJson(vm.taskList);
         }
 
-        function clearAllTasks() {
-            vm.taskList = [];
-            vm.isListEmpty = isTaskListEmpty();
-            window.localStorage['taskList'] = angular.toJson(vm.taskList);
+        function clearAllTasks() {  
+            var x = document.getElementById("clear_list_button");
+            if(x.innerHTML == "Done"){
+                $('.task-wrapper').removeClass('activateDargandDrop');
+            }else{
+                vm.taskList = [];
+                vm.isListEmpty = isTaskListEmpty();
+                window.localStorage['taskList'] = angular.toJson(vm.taskList);    
+            }
         }
 
         function createNewTask() {

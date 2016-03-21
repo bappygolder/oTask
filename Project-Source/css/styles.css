@@ -288,7 +288,7 @@ html {
 
 #task_section {
     max-height: 400px;
-    overflow-y: scroll;
+    overflow-y: auto;
     padding-bottom: 5px;
     padding-top: 10px;
 }
@@ -389,10 +389,73 @@ body {
 }
 
 
-
 #empty_msg {
     font-size: 14px;
 }
 
+
 /*end: Fonts
 ---------------------------------------------------------------------------------------------------*/
+
+/*--17-03-2016 --*/
+.task.curve .cross_mark{ border-radius: 0px;  right: 22px;}
+.task.curve.active .cross_mark{ border-radius: 100%; font-size: 13px;  height: 25px; width: 25px;right: 25px; top: 5px;}
+.ng-binding {  text-overflow: ellipsis; white-space: nowrap; overflow: hidden;display: block; padding-right: 65px;}
+.active .ng-binding {  white-space: normal;word-break: break-word;}
+.vtr-iconbar:focus {  outline: 0px; }
+.vtr-iconbar { 
+    background: #76d378 none repeat scroll 0 0;
+    border-radius: 0;
+    border: 0;
+    border-left: 2px solid #fff;
+    height: 100%;
+    right: 1px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 20px;    
+}
+
+.vtr-iconbar .icon-bar {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 100%;
+    clear: both;
+    display: block;
+    height: 5px;
+    margin: 5px auto;
+    width: 5px;
+}
+
+.overlay{
+    display:none;
+}
+
+.activateDargandDrop .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px 0 0px 5px;
+    color: #fff;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display:block;
+    text-align: center;
+}
+
+.overlay .fa-arrows-v {
+    font-size: 38px;
+    height: 100%;
+    margin: 11px;
+    margin-top: -17px;
+    position: absolute;
+    top: 50%;
+    vertical-align: middle;
+    left: 0;
+    right: 0;
+    
+}
+
+.activateDargandDrop .task.curve .cross_mark{ display:none; }
+.activateDargandDrop .ng-binding{    padding-right: 18px;}
