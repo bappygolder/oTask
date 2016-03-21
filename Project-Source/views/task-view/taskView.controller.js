@@ -59,6 +59,8 @@
             var x = document.getElementById("clear_list_button");
             if(x.innerHTML == "Done"){
                 $('.task-wrapper').removeClass('activateDargandDrop');
+                $('#clear_list_button').text('Clear List');
+                $( "#sortable" ).sortable( "destroy" );
             }else{
                 vm.taskList = [];
                 vm.isListEmpty = isTaskListEmpty();
