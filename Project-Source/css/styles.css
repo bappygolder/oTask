@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic);
+
 /*--------------------------------------------------------------------------------------------------
 Test CSS
 ---------------------------------------------------------------------------------------------------*/
@@ -20,9 +22,9 @@ Global CSS
 textarea,
 button,
 #task_section ul li /*task items*/  {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
 }
 
 /*end: Global CSS
@@ -36,7 +38,7 @@ Structure > Overall Structure
 ----------------------------------------------------*/
 
 #app_container {
-    margin: auto;
+    margin: auto auto 23px;
     max-width: 500px;
 }
 
@@ -45,7 +47,7 @@ Structure > Overall Structure
 #clear_task_section,
 .dots,
 div[empty-task-list-template] {
-    padding: 0 23px;
+    padding: 5px 23px 0;
     /*Controls the breathing for both sides of the whole app*/
 }
 
@@ -64,6 +66,7 @@ div[empty-task-list-template] {
 
 #add_task_section {
     padding-top: 23px;
+	 padding-bottom: 23px;
 }
 
 #add_task_section form {
@@ -78,7 +81,7 @@ div[empty-task-list-template] {
 }
 
 #task_section {
-    background: #eeeeee;
+    background: #e0e0e0;
 }
 
 #task_section ul {
@@ -87,12 +90,13 @@ div[empty-task-list-template] {
 
 #task_section ul li {
     position: relative;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     line-height: 140%;
     list-style-type: none;
     padding: 14px 10px;
     position: relative;
-		min-height: 50px;
+	min-height: 54px;
+	color: #333;
 }
 
 #empty_msg {
@@ -121,7 +125,7 @@ div[empty-task-list-template] {
     border: 0;
    /* float: right;*/
     height: 50px;
-    width: 50px;
+    width: 40px;
     text-align: center;
 }
 
@@ -129,7 +133,9 @@ div[empty-task-list-template] {
     width: 100%;
     border: 0;
     height: auto;
-    padding: 12px;
+    padding:5px 12px;
+	font-size: 25px;
+	 margin-bottom: 10px;
 }
 
 .dots {
@@ -147,17 +153,18 @@ div[empty-task-list-template] {
 
 #add_task_button {
     height: auto;
-    padding: 10px 0;
+    padding: 5px 0;
     text-transform: uppercase;
     border: 0;
     width: 100%;
-    margin: 10px 0;
-
+    margin: 15px 0 0;
+	font-weight: 300;
+	font-size:25px;
 }
 
 .cross_mark {
     position: absolute;
-    top: 0;
+    top: 1px;
     right: 0;
 
     /*remove curve from inside the buttons*/
@@ -191,6 +198,23 @@ div[empty-task-list-template] {
     padding-left: 12px;
     font-size:12px;
 }
+input, select, textarea{ color:#333333; font-weight:normal; font-weight: 300;}
+
+input::-webkit-input-placeholder, select::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit browsers */
+ color: #cccaca ; font-size: 24px !important;
+}
+input::-moz-placeholder, select:-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color: #cccaca;
+ opacity:  1;font-size: 24px !important;
+}
+input:-moz-placeholder, select-moz-placeholder, textarea:-moz-placeholder{ /* Mozilla Firefox 19+ */
+ color: #cccaca;
+ opacity:  1; font-size: 24px !important;
+}
+input:-ms-input-placeholder, select:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+ color: #cccaca;font-size: 24px !important;
+}
+
 
 /*--------------------------------------------------
 Media Queries
@@ -271,7 +295,7 @@ Colors
 
 body,
 html {
-    background-color: #eee;
+    background-color: #e0e0e0;
 }
 
 #add_task_section {
@@ -281,6 +305,7 @@ html {
 #add_task_section form {
     background-color: inherit;
 }
+#add_task_button.btn-disabled{ display:none;}
 
 .btn-disabled {
     opacity: .5;
@@ -289,8 +314,9 @@ html {
 #task_section {
     max-height: 400px;
     overflow-y: auto;
-    padding-bottom: 5px;
-    padding-top: 10px;
+    paddind-bottom: 23px;
+    padding-top: 23px;
+	 min-height: 400px;
 }
 
 /* Scrollbar stuff */
@@ -322,10 +348,10 @@ html {
 
 #task_section ul li {
     /*padding-right: 50px;*/
-    background: #E0E0E0;
+    background: #fff;
     font-size: 17px;
 }
-
+#task_section ul li:last-child{ margin-bottom:0px;}
 .cross_mark {
     color: white;
     background: #76d378;
@@ -346,13 +372,15 @@ html {
 }
 
 #add_task_button {
-    background: #ff3d00;
+    background: #eb8a6c;
     color: #fff;
+	display: block;
+	
     /*	margin-top: 7px;*/
 }
 
 #clear_task_section button {
-    background: #4caf50;
+    background: #66cc66;
     color: #fff;
 }
 
@@ -381,16 +409,14 @@ div[empty-task-list-template] {
 /*--------------------------------------------------------------------------------------------------
 Fonts
 ---------------------------------------------------------------------------------------------------*/
-body {
-    font-size: 20px
+body { font-family: 'Open Sans', sans-serif;
+    font-size: 20px;font-weight: 300;
 }
 
-#add_task_button {
-}
 
 
 #empty_msg {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 
@@ -398,28 +424,32 @@ body {
 ---------------------------------------------------------------------------------------------------*/
 
 /*--17-03-2016 --*/
-.task.curve .cross_mark{ border-radius: 0px;  right: 22px;}
-.task.curve.active .cross_mark{ border-radius: 100%; font-size: 13px;  height: 25px; width: 25px;right: 25px; top: 5px;}
-.ng-binding {  text-overflow: ellipsis; white-space: nowrap; overflow: hidden;display: block; padding-right: 65px;}
-.active .ng-binding {  white-space: normal;word-break: break-word;}
+.task.curve .cross_mark{ border-radius: 0px;  right: 21px;}
+.task.curve.fullView .cross_mark{ border-radius:0 0 0 3px;}
+.ng-binding {  overflow: hidden;display: block; padding-right: 65px;   white-space: normal; word-break: break-all;}
+.fullView .ng-binding {  white-space: normal; word-break: break-all;}
 .vtr-iconbar:focus {  outline: 0px; }
 .vtr-iconbar { 
-    background: #76d378 none repeat scroll 0 0;
-    border-radius: 0;
+    background: #76d378;
     border: 0;
-    border-left: 2px solid #fff;
-    height: 100%;
+    border-left: 1px solid #9fe0a1;
+    height: 50px;
     right: 1px;
     padding: 0;
     position: absolute;
     text-align: center;
-    top: 0;
-    width: 20px;    
+    top: 1px;
+    width: 20px;
+	border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
 }
-
+.task.curve.fullView .vtr-iconbar{border-radius: 0 4px 0px 0;	-moz-border-radius: 0 4px 0px 0; -webkit-border-radius: 0 4px 0px 0;}
 .vtr-iconbar .icon-bar {
-    background: #fff none repeat scroll 0 0;
+    background: #9fe0a1;
     border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
     clear: both;
     display: block;
     height: 5px;
@@ -430,10 +460,16 @@ body {
 .overlay{
     display:none;
 }
-
+.display-table{ display:table; height: 100%; width: 100%;}
+.display-tablecell{ display: table-cell;  vertical-align: middle;} 
+.icon {
+    display: inline-block;    
+}
+.icon-remove{ width:30px; height: 100%; background: url(../images/close-icon.png) center center no-repeat; }
+.icon-exachange{ width:52px; height:52px; background: rgba(0, 0, 0, 0.5) url(../images/arrows-exchange.png) center center no-repeat; }
 .activateDargandDrop .overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 5px 0 0px 5px;
+    border-radius: 4px;
     color: #fff;
     height: 100%;
     left: 0;
@@ -457,5 +493,79 @@ body {
     
 }
 
-.activateDargandDrop .task.curve .cross_mark{ display:none; }
-.activateDargandDrop .ng-binding{    padding-right: 18px;}
+/*.activateDargandDrop .task.curve .cross_mark{ display:none; }
+.activateDargandDrop .ng-binding{    padding-right: 18px;}*/
+
+/**
+ * For the correct positioning of the placeholder element, the dnd-list and
+ * it's children must have position: relative
+ */
+.simpleDemo ul[dnd-list],
+.simpleDemo ul[dnd-list] > li {
+    position: relative;
+}
+
+/**
+ * The dnd-list should always have a min-height,
+ * otherwise you can't drop to it once it's empty
+ */
+.simpleDemo ul[dnd-list] {
+    min-height: 42px;
+    padding-left: 0px;
+}
+
+/**
+ * The dndDraggingSource class will be applied to
+ * the source element of a drag operation. It makes
+ * sense to hide it to give the user the feeling
+ * that he's actually moving it.
+ */
+.simpleDemo ul[dnd-list] .dndDraggingSource {
+    display: none;
+}
+
+/**
+ * An element with .dndPlaceholder class will be
+ * added to the dnd-list while the user is dragging
+ * over it.
+ */
+.simpleDemo ul[dnd-list] .dndPlaceholder {
+    display: block;
+    background-color: #ddd;
+    min-height: 42px;
+}
+
+/**
+ * The dnd-lists's child elements currently MUST have
+ * position: relative. Otherwise we can not determine
+ * whether the mouse pointer is in the upper or lower
+ * half of the element we are dragging over. In other
+ * browsers we can use event.offsetY for this.
+ */
+.simpleDemo ul[dnd-list] li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+}
+
+/**
+ * Show selected elements in green
+ */
+.simpleDemo ul[dnd-list] li.selected {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+#clear_task_section .grey-btn{ background:#b0afaf}
+.link-section{ text-align:center;}
+.grey-link{ color:#878686; text-decoration:none; font-size: 18px;}
+.grey-link:hover, .grey-link:focus{color:#ff3d00; text-decoration:none; outline:none;}
+
+.pag-title-section{ padding:23px; text-align:center;}
+.pag-title-section h1{ text-align:center; color:#878686; font-weight:300; font-size:50px;  font-family: "Open Sans",sans-serif; margin: 20px 0; }
+.form-group{ margin-bottom:10px;}
+.form-control{ font-size:24px;  height: 50px; border:0px; font-weight:300; font-family: "Open Sans",sans-serif; color: #333;}
+.form-control:focus { border-color: inherit; box-shadow: none;}
