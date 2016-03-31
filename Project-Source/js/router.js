@@ -19,5 +19,9 @@
                 url: '/login',
                 templateUrl: 'views/task-view/login.html'
             })
+             .state('signup', {
+                url: '/signup',
+                templateUrl: 'views/task-view/signup'
+            })
     }
 })();
