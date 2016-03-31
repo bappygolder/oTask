@@ -10,6 +10,14 @@
 
         function onStateChangeSuccess(event, toState, toParams, fromState, fromParams) {
 	}	
+	/*--- onClick overlay ---*/
+	$scope.divoverlay = function($event){
+		var currentItem = $event.currentTarget;
+		var updateUrl;
+		$(currentItem).parents('.task-wrapper').toggleClass('activateDargandDrop');
+		$('#clear_list_button').text("Done");
+		$( "#sortable" ).sortable();
+	}	
     }
 
 })();
