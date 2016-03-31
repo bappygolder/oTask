@@ -9,7 +9,7 @@
         $scope.$on('$stateChangeSuccess', onStateChangeSuccess);
 
         function onStateChangeSuccess(event, toState, toParams, fromState, fromParams) {
-	}	
+	}		
 	/*--- onClick overlay ---*/
 	$scope.divoverlay = function($event){
 		var currentItem = $event.currentTarget;
