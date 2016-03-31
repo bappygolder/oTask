@@ -15,5 +15,9 @@
                 templateUrl: 'views/task-view/taskView.html',
                 controller: 'TaskViewController as vm'
             })
+             .state('login', {
+                url: '/login',
+                templateUrl: 'views/task-view/login.html'
+            })
     }
 })();
