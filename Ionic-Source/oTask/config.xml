@@ -4,6 +4,7 @@
   <description>
         The Simplest ToDo List
   </description>
+  <!--<author email="abc@example.com" href="www.otask.bups.co">Your Name Here</author>-->
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
