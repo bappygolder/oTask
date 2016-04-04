@@ -46,14 +46,7 @@
             </div>
         </ul>-->
     <ul id="sortable" dnd-list="vm.taskList" class="task-wrapper" ng-if="!vm.isListEmpty">
-            <li class="task curve {{task.class}}" 
-                ng-repeat="task in vm.taskList"
-                dnd-draggable="task"
-                dnd-moved="vm.taskList.splice($index, 1)"
-                dnd-effect-allowed="move"
-                dnd-selected="models.selected = task"
-                ng-class="{'selected': models.selected === task}" 
-                >
+            <li class="task curve {{task.class}}" ng-repeat="task in vm.taskList" ng-class="{'selected': models.selected === task}" >
                   <div class="task-bottom" ng-click="divalert($event)">
                         <span>{{task.description}}</span>
                   </div>
