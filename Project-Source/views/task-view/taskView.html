@@ -45,8 +45,8 @@
                 </li>
             </div>
         </ul>-->
-    <ul id="sortable" dnd-list="vm.taskList" class="task-wrapper" ng-if="!vm.isListEmpty">
-            <li class="task curve {{task.class}}" ng-repeat="task in vm.taskList" ng-class="{'selected': models.selected === task}" >
+    <ul id="sortable"  class="task-wrapper " ng-if="!vm.isListEmpty">
+            <li class="task  curve {{task.class}}" ng-repeat="task in vm.taskList" ng-class="{'selected': models.selected === task}" >
                   <div class="task-bottom" ng-click="divalert($event)">
                         <span>{{task.description}}</span>
                   </div>
@@ -87,8 +87,9 @@
                 onclick="window.open('http://otask.tumblr.com/about')"> </button>
   </div>
   <!--end: #clear_task_section--> 
-  
-  <!--Javascript File Links--> 
+      
+  <!--Javascript File Links-->
+
   <script src="js/static-html-content.js" type="text/javascript"></script> 
 </div>
 <!--end: #app_container-->
