@@ -3,7 +3,7 @@
 //content variables | TEMPLATE: var a = "";
 	var app_title_text = "oTask";
 	var add_button_text = "Add";
-	var empty_list_message_text = "Your list is empty. Add something new! <br> or <a href='#'>LogIn first</a>";
+	var empty_list_message_text = "Your list is empty. Add something new!";
 	var clear_list_text = "Clear List";
 	var about_otask_text = "About oTask";
 	//var clear_list_text = "Clear List"; //need to work it out still
