@@ -46,7 +46,7 @@
             </div>
         </ul>-->
     <ul id="sortable" dnd-list="vm.taskList" class="task-wrapper" ng-if="!vm.isListEmpty">
-      <li class="task curve {{task.class}}" 
+            <li class="task curve {{task.class}}" 
                 ng-repeat="task in vm.taskList"
                 dnd-draggable="task"
                 dnd-moved="vm.taskList.splice($index, 1)"
@@ -54,22 +54,27 @@
                 dnd-selected="models.selected = task"
                 ng-class="{'selected': models.selected === task}" 
                 >
-        <div class="task-bottom" ng-click="divalert($event)"><span>{{task.description}}</span></div>
-        <button class="cross_mark" 
-                        ng-click="vm.deleteTask($index)"> <span class="icon icon-remove"></span> </button>
-        <button type="button" class="vtr-iconbar" ng-click="divoverlay($event)"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <div class="action-buttons">
-          <input	type="checkbox" 
-                            ng-hide="true" 
-                            name="done" 
-                            value="Done">
-          <span ng-hide="true">{{ task.timestamp | date : 'medium'}}</span> </div>
-        <div class="overlay">
-          <div class="display-table">
-            <div class="display-tablecell"><span class="icon icon-exachange"></span></div>
-          </div>
-        </div>
-      </li>
+                  <div class="task-bottom" ng-click="divalert($event)">
+                        <span>{{task.description}}</span>
+                  </div>
+                  <button class="cross_mark height52" ng-click="vm.deleteTask($index)"> 
+                        <span class="icon icon-remove"></span>
+                  </button>
+                  <button type="button" class="vtr-iconbar height52" ng-click="divoverlay($event)">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                  </button>
+                  <div class="action-buttons">
+                        <input	type="checkbox" ng-hide="true" name="done" value="Done">
+                        <span ng-hide="true">{{ task.timestamp | date : 'medium'}}</span>
+                  </div>
+                  <div class="overlay">
+                        <div class="display-table">
+                              <div class="display-tablecell"><span class="icon icon-exachange height52"></span></div>
+                        </div>
+                  </div>
+            </li>
     </ul>
   </div>
   <!--end: Task Section -->
@@ -87,7 +92,6 @@
                 class="curve"
                 type="button"
                 onclick="window.open('http://otask.tumblr.com/about')"> </button>
-           <div class="link-section"><a href="#" title="Signup" class="grey-link" >SignUp</a></div>
   </div>
   <!--end: #clear_task_section--> 
   

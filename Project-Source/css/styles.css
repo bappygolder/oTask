@@ -27,6 +27,9 @@ button,
     border-radius: 4px;
 }
 
+.height52 { height:52px;  }
+.greenbtn{ background: #4caf50; }
+
 /*end: Global CSS
 ---------------------------------------------------------------------------------------------------*/
 
@@ -81,7 +84,7 @@ div[empty-task-list-template] {
 }
 
 #task_section {
-    background: #e0e0e0;
+    background: #eeeeee;
 }
 
 #task_section ul {
@@ -124,7 +127,6 @@ div[empty-task-list-template] {
 .cross_mark {
     border: 0;
    /* float: right;*/
-    height: 50px;
     width: 40px;
     text-align: center;
 }
@@ -133,9 +135,8 @@ div[empty-task-list-template] {
     width: 100%;
     border: 0;
     height: auto;
-    padding:5px 12px;
-	font-size: 25px;
-	 margin-bottom: 10px;
+    padding:12px;
+    margin-bottom: 10px;
 }
 
 .dots {
@@ -295,7 +296,7 @@ Colors
 
 body,
 html {
-    background-color: #e0e0e0;
+    background-color: #eee;
 }
 
 #add_task_section {
@@ -366,10 +367,6 @@ html {
     background: #fff;
 }
 
-.dots span {
-    background: #d6d5d5;
-
-}
 
 #add_task_button {
     background: #eb8a6c;
@@ -380,7 +377,7 @@ html {
 }
 
 #clear_task_section button {
-    background: #66cc66;
+    background: #4caf50;
     color: #fff;
 }
 
@@ -416,7 +413,7 @@ body { font-family: 'Open Sans', sans-serif;
 
 
 #empty_msg {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 
@@ -433,7 +430,6 @@ body { font-family: 'Open Sans', sans-serif;
     background: #76d378;
     border: 0;
     border-left: 1px solid #9fe0a1;
-    height: 50px;
     right: 1px;
     padding: 0;
     position: absolute;
@@ -462,11 +458,9 @@ body { font-family: 'Open Sans', sans-serif;
 }
 .display-table{ display:table; height: 100%; width: 100%;}
 .display-tablecell{ display: table-cell;  vertical-align: middle;} 
-.icon {
-    display: inline-block;    
-}
+.icon { display: inline-block; }
 .icon-remove{ width:30px; height: 100%; background: url(../images/close-icon.png) center center no-repeat; }
-.icon-exachange{ width:52px; height:52px; background: rgba(0, 0, 0, 0.5) url(../images/arrows-exchange.png) center center no-repeat; }
+.icon-exachange{ width:52px; background: rgba(0, 0, 0, 0.5) url(../images/arrows-exchange.png) center center no-repeat; }
 .activateDargandDrop .overlay {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 4px;
@@ -543,8 +537,7 @@ body { font-family: 'Open Sans', sans-serif;
  * browsers we can use event.offsetY for this.
  */
 .simpleDemo ul[dnd-list] li {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #fff; 
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
     display: block;
