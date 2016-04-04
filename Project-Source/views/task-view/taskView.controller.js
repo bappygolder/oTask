@@ -27,6 +27,7 @@
             if (window.localStorage['taskList'] != undefined 
 								&& window.localStorage['taskList'] != 'undefined') {
                 vm.taskList = JSON.parse(window.localStorage['taskList']);
+                //vm.taskList = [];
             }
             else {
                 vm.taskList = [];
@@ -39,6 +40,9 @@
             // Create and add
             var newTask = createNewTask();
             newTask.description = vm.newDescription;
+            if(newTask.description.length > 38){
+                newTask.class = "fullView";
+            }
             newTask.timestamp = new Date().getTime();
             vm.taskList.push(newTask);
 
@@ -52,13 +56,22 @@
         function deleteTask(index) {
             vm.taskList.splice(index, 1);
             vm.isListEmpty = isTaskListEmpty();
-            window.localStorage['taskList'] = angular.toJson(vm.taskList);
+            window.localStorage['taskList'] = angular.toJson(vm.isTaskListEmpty);
         }
 
-        function clearAllTasks() {
-            vm.taskList = [];
-            vm.isListEmpty = isTaskListEmpty();
-            window.localStorage['taskList'] = angular.toJson(vm.taskList);
+        function clearAllTasks(index) {  
+            var x = document.getElementById("clear_list_button");
+            if(x.innerHTML == "Done"){
+                $('.task-wrapper').removeClass('activateDargandDrop');
+                $('#clear_list_button').text('Clear List');
+                $( "#sortable" ).sortable( "destroy" );
+                console.log(angular.toJson(vm.taskList));
+                //window.localStorage['taskList'] = angular.toJson(temp);
+            }else{
+                vm.taskList = [];
+                vm.isListEmpty = isTaskListEmpty();
+                window.localStorage['taskList'] = angular.toJson(vm.taskList);    
+            }
         }
 
         function createNewTask() {
