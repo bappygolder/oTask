@@ -6,6 +6,9 @@ If you know how to code there's many different ways you can contribute. The proj
 - CSS
 - JavaScript
 - AngularJS
+- Photoshop
+- Illistrator
+- Or any other simillar technologies.
 
 If are are familiar with any of the above technologies you can contribute as a developer. You also need to be familiar with the following technology/processes:
 
