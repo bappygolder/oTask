@@ -1,0 +1,499 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic);
+
+/*--------------------------------------------------------------------------------------------------
+Test CSS
+---------------------------------------------------------------------------------------------------*/
+.task-bottom{
+	 /*background: pink;*/
+}
+/*end: Test CSS
+---------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------
+Global CSS
+---------------------------------------------------------------------------------------------------*/
+* {
+    /*background-color: #EEEEEE; Removed by Eric Ruiz*/
+    box-sizing: border-box;
+}
+
+/*adds border radius to relevant elements*/
+.curve,
+textarea,
+button,
+#task_section ul li /*task items*/  {
+    -webkit-border-radius: 4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+}
+
+.height52 { height:52px;  }
+.greenbtn{ background: #4caf50; }
+
+/*end: Global CSS
+---------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------
+Structure
+---------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------
+Structure > Overall Structure
+----------------------------------------------------*/
+
+#app_container {
+    margin: auto auto 23px;
+    max-width: 500px;
+}
+
+#add_task_section,
+#task_section,
+#clear_task_section,
+.dots,
+div[empty-task-list-template] {
+    padding: 5px 23px 0;
+    /*Controls the breathing for both sides of the whole app*/
+}
+
+div[empty-task-list-template] {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.dots {
+    padding-right: 26px;
+}
+
+/*end: Structur > Overall Structure
+----------------------------------------------------*/
+
+#add_task_section {
+    padding-top: 23px;
+	 padding-bottom: 23px;
+}
+
+#add_task_section form {
+    overflow: hidden;
+}
+
+#task_input_field {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    padding: 5px 10px;
+}
+
+#task_section {
+    background: #eeeeee;
+}
+
+#task_section ul {
+    padding: 0;
+}
+
+#task_section ul li {
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 140%;
+    list-style-type: none;
+    padding: 14px 10px;
+    position: relative;
+	min-height: 54px;
+	color: #333;
+}
+
+#empty_msg {
+    color: #9e9e9e;
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 170px;
+}
+
+.task {
+    /*padding-left: 5px;*/
+    /*padding-right: 5px;*/
+    /*min-height: 50px;*/
+    /*border: 1px solid black;*/
+    margin-bottom: 7px;
+    line-height: 140%;
+    list-style-type: none;
+    padding: 14px 10px;
+    position: relative;
+    min-height: 50px;
+    background: #E0E0E0;
+    font-size: 17px;
+}
+
+.cross_mark {
+    border: 0;
+   /* float: right;*/
+    width: 40px;
+    text-align: center;
+}
+
+#clear_task_section button {
+    width: 100%;
+    border: 0;
+    height: auto;
+    padding:12px;
+    margin-bottom: 10px;
+}
+
+.dots {
+    text-align: right;
+    /*padding-right: 15px;
+    padding-bottom: 12px;*/
+}
+
+.dots span {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#add_task_button {
+    height: auto;
+    padding: 5px 0;
+    text-transform: uppercase;
+    border: 0;
+    width: 100%;
+    margin: 15px 0 0;
+	font-weight: 300;
+	font-size:25px;
+}
+
+.cross_mark {
+    position: absolute;
+    top: 1px;
+    right: 0;
+
+    /*remove curve from inside the buttons*/
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+
+    -webkit-border-bottom-left-radius: 0px;
+    -moz-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.fade {
+    height: 100%;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 52px;
+
+}
+
+.task-wrapper{
+    min-height: 342px;
+}
+
+.action-buttons{
+    min-height: 35px;
+		display: none;
+}
+.action-buttons span{
+    padding-left: 12px;
+    font-size:12px;
+}
+input, select, textarea{ color:#333333; font-weight:normal; font-weight: 300;}
+
+input::-webkit-input-placeholder, select::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit browsers */
+ color: #cccaca ; font-size: 24px !important;
+}
+input::-moz-placeholder, select:-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color: #cccaca;
+ opacity:  1;font-size: 24px !important;
+}
+input:-moz-placeholder, select-moz-placeholder, textarea:-moz-placeholder{ /* Mozilla Firefox 19+ */
+ color: #cccaca;
+ opacity:  1; font-size: 24px !important;
+}
+input:-ms-input-placeholder, select:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+ color: #cccaca;font-size: 24px !important;
+}
+
+
+/*--------------------------------------------------
+Media Queries
+--------------------------------------------------*/
+
+/*If screen is bigger than 500 this size corrosponds to: #app_container widht*/
+@media screen and (min-width: 500px) {
+
+    #app_container {
+        max-width: 320px;
+    }
+
+    body {
+        padding-top: 23px;
+        background-color: red
+    }
+
+    /*update color from #eee to show seperation*/
+    html,
+    body {
+        background: #e0e0e0 !important;
+    }
+
+    /*Makes the clear button expand both side to touch the edges.*/
+    #clear_task_section {
+        padding: 0;
+    }
+
+    /*add curve to the top two corners of the app container. We are
+    only adding curves to the top two corners*/
+    #add_task_section {
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-top-right-radius: 10px;
+
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-topright: 10px;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    /*adjust curve/border-radious for the clear button*/
+    #clear_task_section button {
+        /*remove curve from top two corners*/
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+
+        /*add 10px to the bottom two corners*/
+        -webkit-border-bottom-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+
+        -moz-border-radius-bottomright: 10px;
+        -moz-border-radius-bottomleft: 10px;
+
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+/*If screen is smaller than 500*/
+@media screen and (max-width: 500px) {
+
+}
+
+/*end: Media Queries
+--------------------------------------------------*/
+
+/*end: Structure
+---------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------
+Colors
+---------------------------------------------------------------------------------------------------*/
+/*#app_container {
+	background,: pink;
+}*/
+
+body,
+html {
+    background-color: #eee;
+}
+
+#add_task_section {
+    background: #d7d7d8;
+}
+
+#add_task_section form {
+    background-color: inherit;
+}
+#add_task_button.btn-disabled{ display:none;}
+
+.btn-disabled {
+    opacity: .5;
+}
+
+#task_section {
+    max-height: 400px;
+    overflow-y: auto;
+    paddind-bottom: 23px;
+    padding-top: 23px;
+	 min-height: 400px;
+}
+
+/* Scrollbar stuff */
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border: 2px solid #eeeeee;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    background: #d7d7d8;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #d7d7d8;
+}
+
+/* End Scrollbar stuff */
+
+#task_section ul li {
+    /*padding-right: 50px;*/
+    background: #fff;
+    font-size: 17px;
+}
+#task_section ul li:last-child{ margin-bottom:0px;}
+.cross_mark {
+    color: white;
+    background: #76d378;
+
+}
+
+#clear_task_section {
+/*    background: #eeeded;*/
+}
+
+#task_input_field {
+    background: #fff;
+}
+
+
+#add_task_button {
+    background: #eb8a6c;
+    color: #fff;
+	display: block;
+	
+    /*	margin-top: 7px;*/
+}
+
+#clear_task_section button {
+    background: #4caf50;
+    color: #fff;
+}
+
+.fade {
+    height: 100%;
+    width: 140px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    /* Permalink - use to edit and share this gradient:
+    http://colorzilla.com/gradient-editor/#e0e0e0+0,e0e0e0+100&amp;0.19+0,1+100 */
+    background: -moz-linear-gradient(left, rgba(224, 224, 224, 0.19) 0%, rgba(224, 224, 224, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(224, 224, 224, 0.19) 0%, rgba(224, 224, 224, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(224, 224, 224, 0.19) 0%, rgba(224, 224, 224, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#30e0e0e0', endColorstr='#e0e0e0', GradientType=1); /* IE6-9 */
+
+}
+
+div[empty-task-list-template] {
+    color: #9E9E9E;
+}
+
+/*end: Colors
+---------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------
+Fonts
+---------------------------------------------------------------------------------------------------*/
+body { font-family: 'Open Sans', sans-serif;
+    font-size: 20px;font-weight: 300;
+}
+
+
+
+#empty_msg {
+    font-size: 14px;
+}
+
+
+/*end: Fonts
+---------------------------------------------------------------------------------------------------*/
+
+/*--17-03-2016 --*/
+.task.curve .cross_mark{ border-radius: 0px;  right: 21px;}
+.task.curve.fullView .cross_mark{ border-radius:0 0 0 3px;}
+.ng-binding {  overflow: hidden;display: block; padding-right: 65px;   white-space: normal; word-break: break-all;}
+.fullView .ng-binding {  white-space: normal; word-break: break-all;}
+.vtr-iconbar:focus {  outline: 0px; }
+.vtr-iconbar { 
+    background: #76d378;
+    border: 0;
+    border-left: 1px solid #9fe0a1;
+    right: 1px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 20px;
+	border-radius: 0 4px 4px 0;
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+}
+.task.curve.fullView .vtr-iconbar{border-radius: 0 4px 0px 0;	-moz-border-radius: 0 4px 0px 0; -webkit-border-radius: 0 4px 0px 0;}
+.vtr-iconbar .icon-bar {
+    background: #9fe0a1;
+    border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+    clear: both;
+    display: block;
+    height: 5px;
+    margin: 5px auto;
+    width: 5px;
+}
+
+.overlay{
+    display:none;
+}
+.display-table{ display:table; height: 100%; width: 100%;}
+.display-tablecell{ display: table-cell;  vertical-align: middle;} 
+.icon { display: inline-block; }
+.icon-remove{ width:30px; height: 100%; background: url(../images/close-icon.png) center center no-repeat; }
+.icon-exachange{ width:52px; background: rgba(0, 0, 0, 0.5) url(../images/arrows-exchange.png) center center no-repeat; }
+.activateDargandDrop .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: #fff;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display:block;
+    text-align: center;
+}
+
+.overlay .fa-arrows-v {
+    font-size: 38px;
+    height: 100%;
+    margin: 11px;
+    margin-top: -17px;
+    position: absolute;
+    top: 50%;
+    vertical-align: middle;
+    left: 0;
+    right: 0;
+    
+}
+
+#clear_task_section .grey-btn{ background:#b0afaf}
+.link-section{ text-align:center;}
+.grey-link{ color:#878686; text-decoration:none; font-size: 18px;}
+.grey-link:hover, .grey-link:focus{color:#ff3d00; text-decoration:none; outline:none;}
+
+.pag-title-section{ padding:23px; text-align:center;}
+.pag-title-section h1{ text-align:center; color:#878686; font-weight:300; font-size:50px;  font-family: "Open Sans",sans-serif; margin: 20px 0; }
+.form-group{ margin-bottom:10px;}
+.form-control{ font-size:24px;  height: 50px; border:0px; font-weight:300; font-family: "Open Sans",sans-serif; color: #333;}
+.form-control:focus { border-color: inherit; box-shadow: none;}
