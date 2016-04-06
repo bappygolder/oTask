@@ -61,9 +61,9 @@
 
         function clearAllTasks(index) {  
             var x = document.getElementById("clear_list_button");
-            if(x.innerHTML == "Done"){
+            if(x.innerHTML == "Done Sorting"){
                 $('.task-wrapper').removeClass('activateDargandDrop');
-                $('#clear_list_button').text('Clear List');
+                $('#clear_list_button').text('Clear List').removeClass('bluebtn');
                 $( "#sortable" ).sortable( "destroy" );
                 console.log(angular.toJson(vm.taskList));
                 //window.localStorage['taskList'] = angular.toJson(temp);

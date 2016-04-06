@@ -12,8 +12,13 @@
               link: function(scope,element,attrs){
                             $('#task_input_field').focus(function() {
                                 $(this).attr('placeholder', 'i.e: Check the letter-box');
+                                $('#add_task_button').fadeIn();
                             }).blur(function() {
+                                if($(this).val() == ''){
+                                    $('#add_task_button').fadeOut();   
+                                }
                                 $(this).attr('placeholder', 'New List Item ...');
+                                 
                             })
                     }
             };

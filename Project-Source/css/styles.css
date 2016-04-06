@@ -202,18 +202,18 @@ div[empty-task-list-template] {
 input, select, textarea{ color:#333333; font-weight:normal; font-weight: 300;}
 
 input::-webkit-input-placeholder, select::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit browsers */
- color: #cccaca ; font-size: 24px !important;
+ color: #cccaca ; font-size: 20px !important;
 }
 input::-moz-placeholder, select:-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
  color: #cccaca;
- opacity:  1;font-size: 24px !important;
+ opacity:  1;font-size: 20px !important;
 }
 input:-moz-placeholder, select-moz-placeholder, textarea:-moz-placeholder{ /* Mozilla Firefox 19+ */
  color: #cccaca;
- opacity:  1; font-size: 24px !important;
+ opacity:  1; font-size: 20px !important;
 }
 input:-ms-input-placeholder, select:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
- color: #cccaca;font-size: 24px !important;
+ color: #cccaca;font-size: 20px !important;
 }
 
 
@@ -371,7 +371,7 @@ html {
 #add_task_button {
     background: #eb8a6c;
     color: #fff;
-	display: block;
+    display: none;
 	
     /*	margin-top: 7px;*/
 }
