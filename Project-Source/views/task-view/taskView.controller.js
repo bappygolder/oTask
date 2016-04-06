@@ -40,7 +40,7 @@
             // Create and add
             var newTask = createNewTask();
             newTask.description = vm.newDescription;
-            if(newTask.description.length > 38){
+            if(newTask.description.length > 40){
                 newTask.class = "fullView";
             }
             newTask.timestamp = new Date().getTime();

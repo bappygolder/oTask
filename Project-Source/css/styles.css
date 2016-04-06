@@ -27,7 +27,7 @@ button,
     border-radius: 4px;
 }
 
-.height52 { height:52px;  }
+.height52 { height:54px;  }
 .greenbtn{ background: #4caf50; }
 
 /*end: Global CSS
@@ -159,13 +159,13 @@ div[empty-task-list-template] {
     border: 0;
     width: 100%;
     margin: 15px 0 0;
-	font-weight: 300;
-	font-size:25px;
+    font-weight: 300;
+    font-size:25px;
 }
 
 .cross_mark {
     position: absolute;
-    top: 1px;
+    top: 0px;
     right: 0;
 
     /*remove curve from inside the buttons*/
@@ -421,7 +421,7 @@ body { font-family: 'Open Sans', sans-serif;
 ---------------------------------------------------------------------------------------------------*/
 
 /*--17-03-2016 --*/
-.task.curve .cross_mark{ border-radius: 0px;  right: 21px;}
+.task.curve .cross_mark{ border-radius: 0px;  right: 20px;}
 .task.curve.fullView .cross_mark{ border-radius:0 0 0 3px;}
 .ng-binding {  overflow: hidden;display: block; padding-right: 65px;   white-space: normal; word-break: break-all;}
 .fullView .ng-binding {  white-space: normal; word-break: break-all;}
@@ -430,11 +430,11 @@ body { font-family: 'Open Sans', sans-serif;
     background: #76d378;
     border: 0;
     border-left: 1px solid #9fe0a1;
-    right: 1px;
+    right: 0px;
     padding: 0;
     position: absolute;
     text-align: center;
-    top: 1px;
+    top: 0px;
     width: 20px;
 	border-radius: 0 4px 4px 0;
 	-moz-border-radius: 0 4px 4px 0;
