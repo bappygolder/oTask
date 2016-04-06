@@ -29,7 +29,7 @@ button,
 
 .height52 { height:54px;  }
 .greenbtn{ background: #4caf50; }
-
+.bluebtn{ background: #3498db; }
 /*end: Global CSS
 ---------------------------------------------------------------------------------------------------*/
 
@@ -377,7 +377,6 @@ html {
 }
 
 #clear_task_section button {
-    background: #4caf50;
     color: #fff;
 }
 

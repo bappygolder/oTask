@@ -14,7 +14,7 @@
       <!--<textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>-->
       
       <input-textarea></input-textarea>
-      <button class="curve"
+      <button class="curve "
                     id="add_task_button"
                     ng-class="{'btn-disabled' : vm.newDescription == ''}"
                     ng-disabled="vm.newDescription == ''"
@@ -75,7 +75,7 @@
   <div id="clear_task_section">
     <button id="clear_list_button"
                 ng-show="!vm.isListEmpty"
-                class="curve"
+                class="curve greenbtn"
                 type="button"
                 ng-click="vm.clearAllTasks()"> </button>
     
