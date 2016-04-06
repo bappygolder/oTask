@@ -17,8 +17,4 @@ $(document).ready(function(){
 	jQuery('body').on('click', '.alertlogin', function(){
 		alert("This feature is not ready yet, but we are working on it. Stay tuned!");
 	})
-
-	jQuery('body').on('change', '#task_input_field', function(){
-		alert(value);
-	})
 })

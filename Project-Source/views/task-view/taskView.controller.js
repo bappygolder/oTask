@@ -54,9 +54,13 @@
         }
 
         function deleteTask(index) {
+          
             vm.taskList.splice(index, 1);
-            vm.isListEmpty = isTaskListEmpty();
-            window.localStorage['taskList'] = angular.toJson(vm.isTaskListEmpty);
+            //vm.isListEmpty = isTaskListEmpty();
+            console.log(index)
+            console.log(vm.taskList)
+            window.localStorage['taskList'] = angular.toJson(vm.taskList);
+            start();
         }
 
         function clearAllTasks(index) {  
@@ -65,13 +69,11 @@
                 $('.task-wrapper').removeClass('activateDargandDrop');
                 $('#clear_list_button').text('Clear List').removeClass('bluebtn');
                 $( "#sortable" ).sortable( "destroy" );
-                console.log(angular.toJson(vm.taskList));
-                //window.localStorage['taskList'] = angular.toJson(temp);
             }else{
                 vm.taskList = [];
                 vm.isListEmpty = isTaskListEmpty();
-                window.localStorage['taskList'] = angular.toJson(vm.taskList);    
             }
+             window.localStorage['taskList'] = angular.toJson(vm.taskList);   
         }
 
         function createNewTask() {
