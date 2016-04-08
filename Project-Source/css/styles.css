@@ -159,8 +159,8 @@ div[empty-task-list-template] {
     border: 0;
     width: 100%;
     margin: 15px 0 0;
-	font-weight: 300;
-	font-size:25px;
+		font-weight: 300;
+		font-size:25px;
 }
 
 .cross_mark {
@@ -306,7 +306,10 @@ html {
 #add_task_section form {
     background-color: inherit;
 }
-#add_task_button.btn-disabled{ display:none;}
+
+#add_task_button.btn-disabled{ 
+	display:none;
+}
 
 .btn-disabled {
     opacity: .5;
@@ -317,7 +320,7 @@ html {
     overflow-y: auto;
     paddind-bottom: 23px;
     padding-top: 23px;
-	 min-height: 400px;
+	 	min-height: 400px;
 }
 
 /* Scrollbar stuff */
