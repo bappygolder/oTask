@@ -14,12 +14,11 @@
       <!--<textarea class="curve" ng-model="vm.newDescription" type="text" name="new_task" id="task_input_field" placeholder="New Task . . ." onfocus="function(){console.log('hello');}"></textarea>-->
       
       <input-textarea></input-textarea>
-      <button class="curve"
+      <button class="curve "
                     id="add_task_button"
-                    ng-class="{'btn-disabled' : vm.newDescription == ''}"
                     ng-disabled="vm.newDescription == ''"
                     ng-click="vm.addTask()"> </button>
-      <!--Button content/text added from the file -> static-html-content.js -->
+      <!--Button content/text added from the file ng-class="{'btn-disabled' : vm.newDescription == ''}" -> static-html-content.js -->
       
     </form>
   </div>
@@ -75,14 +74,14 @@
   <div id="clear_task_section">
     <button id="clear_list_button"
                 ng-show="!vm.isListEmpty"
-                class="curve"
+                class="curve greenbtn"
                 type="button"
                 ng-click="vm.clearAllTasks()"> </button>
     
     <!--About button when task is empty-->
     <button id="about_otask_button"
                 ng-show="vm.isListEmpty"
-                class="curve"
+                class="curve greenbtn"
                 type="button"
                 onclick="window.open('http://otask.tumblr.com/about')"> </button>
   </div>
