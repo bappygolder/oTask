@@ -15,7 +15,7 @@
 		var currentItem = $event.currentTarget;
 		var updateUrl;
 		$(currentItem).parents('.task-wrapper').toggleClass('activateDargandDrop');
-		$('#clear_list_button').text("Done");
+		$('#clear_list_button').text("Done Sorting").addClass('bluebtn');
 		$( "#sortable" ).sortable();
 	}	
     }
