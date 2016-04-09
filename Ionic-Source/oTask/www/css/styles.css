@@ -27,9 +27,9 @@ button,
     border-radius: 4px;
 }
 
-.height52 { height:52px;  }
+.height52 { height:54px;  }
 .greenbtn{ background: #4caf50; }
-
+.bluebtn{ background: #3498db; }
 /*end: Global CSS
 ---------------------------------------------------------------------------------------------------*/
 
@@ -165,7 +165,7 @@ div[empty-task-list-template] {
 
 .cross_mark {
     position: absolute;
-    top: 1px;
+    top: 0px;
     right: 0;
 
     /*remove curve from inside the buttons*/
@@ -202,18 +202,18 @@ div[empty-task-list-template] {
 input, select, textarea{ color:#333333; font-weight:normal; font-weight: 300;}
 
 input::-webkit-input-placeholder, select::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit browsers */
- color: #cccaca ; font-size: 24px !important;
+ color: #cccaca ; font-size: 20px !important;
 }
 input::-moz-placeholder, select:-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 4 to 18 */
  color: #cccaca;
- opacity:  1;font-size: 24px !important;
+ opacity:  1;font-size: 20px !important;
 }
 input:-moz-placeholder, select-moz-placeholder, textarea:-moz-placeholder{ /* Mozilla Firefox 19+ */
  color: #cccaca;
- opacity:  1; font-size: 24px !important;
+ opacity:  1; font-size: 20px !important;
 }
 input:-ms-input-placeholder, select:-ms-input-placeholder, textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
- color: #cccaca;font-size: 24px !important;
+ color: #cccaca;font-size: 20px !important;
 }
 
 
@@ -374,13 +374,12 @@ html {
 #add_task_button {
     background: #eb8a6c;
     color: #fff;
-	display: block;
+    display: none;
 	
     /*	margin-top: 7px;*/
 }
 
 #clear_task_section button {
-    background: #4caf50;
     color: #fff;
 }
 
@@ -424,7 +423,7 @@ body { font-family: 'Open Sans', sans-serif;
 ---------------------------------------------------------------------------------------------------*/
 
 /*--17-03-2016 --*/
-.task.curve .cross_mark{ border-radius: 0px;  right: 21px;}
+.task.curve .cross_mark{ border-radius: 0px;  right: 20px;}
 .task.curve.fullView .cross_mark{ border-radius:0 0 0 3px;}
 .ng-binding {  overflow: hidden;display: block; padding-right: 65px;   white-space: normal; word-break: break-all;}
 .fullView .ng-binding {  white-space: normal; word-break: break-all;}
@@ -433,11 +432,11 @@ body { font-family: 'Open Sans', sans-serif;
     background: #76d378;
     border: 0;
     border-left: 1px solid #9fe0a1;
-    right: 1px;
+    right: 0px;
     padding: 0;
     position: absolute;
     text-align: center;
-    top: 1px;
+    top: 0px;
     width: 20px;
 	border-radius: 0 4px 4px 0;
 	-moz-border-radius: 0 4px 4px 0;
