@@ -5,8 +5,9 @@
 
     ApplicationController.$inject = ['$scope', '$location', '$rootScope'];
 
-    function ApplicationController($scope, $location, $rootScope,$element) { //can we replace these three variables with ApplicationController? -BG
+    function ApplicationController($scope, $location, $rootScope, $ionicPlatform, $cordovaSplashscreen, $element) { //can we replace these three variables with ApplicationController? -BG
         $scope.$on('$stateChangeSuccess', onStateChangeSuccess);
+       
 
         function onStateChangeSuccess(event, toState, toParams, fromState, fromParams) {
 	}		
