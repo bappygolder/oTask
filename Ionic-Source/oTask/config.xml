@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.otask949426" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>oTask</name>
+  <description>
+        The Simplest ToDo List
+  </description>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="16"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="orientation" value="portrait"/>
+  <preference name="Fullscreen" value="false" />
+  <preference name="ShowSplashScreenSpinner" value="false" />
+<preference name="SplashScreen" value="screen"/>
+<preference name="AutoHideSplashScreen" value="false" />  
+<preference name="SplashScreenDelay" value="10000" /> 
+<preference name="FadeSplashScreen" value="true" />  
+<preference name="FadeSplashScreenDuration" value="1.0" />
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+  <platform name="android">
+    <icon src="resources/android/icon/mipmap-ldpi/ic_launcher.png" density="ldpi"/>
+    <icon src="resources/android/icon/mipmap-mdpi/ic_launcher.png" density="mdpi"/>
+    <icon src="resources/android/icon/mipmap-hdpi/ic_launcher.png" density="hdpi"/>
+    <icon src="resources/android/icon/mipmap-xhdpi/ic_launcher.png" density="xhdpi"/>
+    <icon src="resources/android/icon/mipmap-xxdpi/ic_launcher.png" density="xxhdpi"/>
+    <icon src="resources/android/icon/mipmap-xxxdpi/ic_launcher.png" density="xxxhdpi"/>
+    <splash src="resources\android\splash\drawable-port-ldpi-screen.png" density="port-ldpi"/>
+    <splash src="resources\android\splash\drawable-port-mdpi-screen.png" density="port-mdpi"/>
+    <splash src="resources\android\splash\drawable-port-hdpi-screen.png" density="port-hdpi"/>
+    <splash src="resources\android\splash\drawable-port-xhdpi-screen.png" density="port-xhdpi"/>
+    <splash src="resources\android\splash\drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
+    <splash src="resources\android\splash\drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
+  </platform>
+</widget>
