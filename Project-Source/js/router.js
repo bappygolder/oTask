@@ -8,6 +8,7 @@
         .config(config);
 
     function config($stateProvider, $urlRouterProvider) {
+        
         $urlRouterProvider.otherwise('/taskView');
         $stateProvider
             .state('taskView', {
