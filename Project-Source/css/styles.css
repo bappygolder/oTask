@@ -274,6 +274,11 @@ Media Queries
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
     }
+
+    .staticDemo{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
 }
 
 /*If screen is smaller than 500*/
@@ -499,3 +504,10 @@ body { font-family: 'Open Sans', sans-serif;
 .form-group{ margin-bottom:10px;}
 .form-control{ font-size:24px;  height: 50px; border:0px; font-weight:300; font-family: "Open Sans",sans-serif; color: #333;}
 .form-control:focus { border-color: inherit; box-shadow: none;}
+#static_msg {
+    color: #9e9e9e;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
