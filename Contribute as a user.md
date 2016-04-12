@@ -25,6 +25,10 @@ We have been driving the development of oTask based on your feedback so **please
 - Niraj KC.
 - Jonathan T.
 - Lucy Q
+- Jake K
+- Bridget F
+- Nilang P
+
 
 
 
