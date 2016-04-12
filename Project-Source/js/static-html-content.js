@@ -10,7 +10,7 @@
 	var ok_button_text = "OK, got it!";
 
 //add content to HTML DOM | TEMPLATE: $("#").append();
-	$("title").append(app_title_text);
+	$("title").text(app_title_text);
 	$("#add_task_button").append(add_button_text);
 	$("#empty_msg").append(empty_list_message_text);
 	$("#clear_list_button").append(clear_list_text);
