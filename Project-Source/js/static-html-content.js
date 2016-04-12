@@ -14,3 +14,6 @@
 	$("#empty_msg").append(empty_list_message_text);
 	$("#clear_list_button").append(clear_list_text);
 	$("#about_otask_button").append(about_otask_text);
+
+//Change text Dynamically ..
+var dynamic_placeholder_texts = ['i.e: Check the letter-box', "i.e: Good oTask!","i.e: Awesome oTask!","i.e: Super oTask!","i.e: Nice oTask!","i.e: Great oTask!"]
