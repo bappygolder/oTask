@@ -14,11 +14,7 @@
                                 $(this).attr('placeholder', 'i.e: Check the letter-box');
                                 $('#add_task_button').fadeIn();
                             }).blur(function() {
-<<<<<<< HEAD
                                 if($(this).val() == ''){
-=======
-                               if($(this).val() == ''){
->>>>>>> f7ee3165768fe0e4efe10b7567cab9deef1a417e
                                     $('#add_task_button').fadeOut();   
                                 }
                                 $(this).attr('placeholder', 'New List Item ...');
