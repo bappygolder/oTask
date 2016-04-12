@@ -10,11 +10,19 @@
 	var ok_button_text = "OK, got it!";
 
 //add content to HTML DOM | TEMPLATE: $("#").append();
-	$("title").append(app_title_text);
+	$("title").text(app_title_text);
 	$("#add_task_button").append(add_button_text);
 	$("#empty_msg").append(empty_list_message_text);
 	$("#clear_list_button").append(clear_list_text);
 	$("#about_otask_button").append(about_otask_text);
 	$("#ok_button").append(ok_button_text);
-	
- 
+
+
+//Change text Dynamically ..
+	var dynamic_placeholder_texts = [ "i.e: Check the letter-box", 
+																		"i.e: Buy milk",
+																		"i.e: Call Jason",
+																		"i.e: Pull request from Nilang",
+																		"i.e: Pay phone bill",
+																		"i.e: Water the plants"]
+
