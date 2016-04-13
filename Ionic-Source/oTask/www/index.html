@@ -1,35 +1,82 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>oTask</title>
+<!--
+  Master Project Location: https://github.com/bappygolder/oTask
+  Live Hosted Website: http://bappygolder.github.io/oTask/Project-Source/#/taskView
+  Timeline Website: http://otask.tumblr.com/
+  Project Owner: Bappy Golder | www.BappyGolder.com
+-->
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+<!doctype html>
+<html ng-app="oTask">
+	<head>
+        <!-- Website Title: Content added from the file -> static-html-content.js -->
+        <title></title>
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
+        <!-- Meta information -->
+        <meta name="description" content="oTask - The Simplest ToDo List In The World">
+        <meta name="keywords" content="todo list, task management, free todo list, simple todo list"> 
+        	<!--Update required from research for above line-->
+        <meta name="author" content="Bappy Golder">
+				<meta charset="utf-8">	
+          
+        <!-- Mobile-friendly viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <!-- Style sheet link/s -->
+          <!-- Custom Font awesome -->
+          <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  
+  				<!-- normalize.css v3.0.2 -->
+          <link rel="stylesheet" href="css/normalize-min.css">
+  
+          <!-- Bootstrap core CSS -->
+          <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+        	
+          <!-- Main CSS -->
+        	<link rel="stylesheet" href="css/styles.css">
 
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+        <!-- IE Fix -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-    <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
+    </head>
 
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
-    <!-- end your app's js -->
-    <!-- your app's directives -->
-    <script src="js/directives/inputTextarea.js"></script>
-    <script src="js/directives/emptyTaskListTemplate.js"></script>
-    <!-- end your app's directives -->
-    <!-- your app's controllers -->
-    <script src="js/controllers/taskController.js"></script>
-    <!-- end your app's controllers -->
-  </head>
-  <body ng-app="oTask">
-     <ion-nav-view></ion-nav-view>
+    <body ng-controller="ApplicationController">
+
+        <div ui-view></div>
+
+      <!-- Vendor Dependencies -->
+
+      <!--jQuery link-->
+        <script src="js/default/jquery-1.11.3.min.js"></script>
+
+      <!--AngularJS link-->
+        <script src="js/default/angular.min.js"></script>
+      <!-- Drag drop js -->  
+        <script src="js/default/angular-ui-router.js"></script>
+
+      <!--App Link-->
+        <script src="js/app.js" type="text/javascript"></script>
+        <script src="js/router.js" type="text/javascript"></script>
+        <!--<script src="js/static-html-content.js" type="text/javascript"></script>-->
+
+      <!--Angular Directive/s-->
+        <script src="js/empty-task-list-template.js" type="text/javascript"></script>
+        <script src="views/task-view/taskView.directive.js" type="text/javascript"></script>
+        
+      <!-- Angular Controllers -->
+        <script src="views/task-view/taskView.controller.js"></script>
+
+      <!-- Jquery UI -->
+        <script src="js/jquery-ui.js"></script>  
+
+       <!-- Mobile Touch -->      
+        <script src="js/jquery.ui.touch-punch.min.js"></script>
+        
+      <!-- General Js -->
+        <script src="js/general.js" type="text/javascript"></script> 
+        
+
   </body>
 </html>
